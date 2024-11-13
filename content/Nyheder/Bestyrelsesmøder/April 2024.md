@@ -5,9 +5,10 @@ title: "April 2024"
 ---
 # Bedding update
 Jens har ikke fået fat på Grenaa bedding endnu
-	Jens vil meget gerne have at beddingen er tæt på ham så han ikke skal køre enormt langt når han skal rette ting til i sit værksted og bare generelt skal køre langt
+- Jens vil meget gerne have at beddingen er tæt på ham så han ikke skal køre enormt langt når han skal rette ting til i sit værksted og bare generelt skal køre langt
+
 Efter mødet update:
-	Grenaa melder at der ikke er plads, der er sat hastemøde op onsdag 3. april
+- Grenaa melder at der ikke er plads, der er sat hastemøde op onsdag 3. april
 # Bedding arbejds plan
 - Jens Martensen
 	- Skifter planker agter
@@ -58,15 +59,18 @@ Der skal være 3 lamper om bord (og 1 pandelampe)
 - [ ] De skal undersøges - Frederik
 ### Pumper
 Ferskvandspumpen skal flyttes til kabyssen
-	Pressostaten skal hentes på onsdag og monteres
+- Pressostaten skal hentes på onsdag og monteres
+
 Maskin lænsepumpen (som sidder på motoren)
-	Skifte impeller 
-	Skal monteres med sugekurv
+- Skifte impeller 
+- Skal monteres med sugekurv
+
 Ny pumpe til brønden
-	Fra biltema til brønden
-	Den nuværende pumpe laves til nødlænsepumpe hvor man kan sætte brandslange til
+- Fra biltema til brønden
+- Den nuværende pumpe laves til nødlænsepumpe hvor man kan sætte brandslange til
+
 Kirkpumpen (sidder i maskinen)
-	Ligger på dørken i banjen (skal monteres igen i maskinen)
+- Ligger på dørken i banjen (skal monteres igen i maskinen)
 - [ ] Alle pumperne skal tjekkes - Det kan morten rise og company
 ### Niveaumåler til lokumstank
 Måleren virker ikke - "den kan lyse og det er jo dejligt"

@@ -15,7 +15,9 @@ title: "November 2024"
 
 # Fredrikshavn
 Beddingen i Fredrikshavn er en forening
+
 Et skib som betty vil koste ca. **4000 kr.** for en uge
+
 Alternativt kan man melde sig ind for **6000 kr**. for et år
 - Ubegrænset mængder af op og ned
 Der er masser af plads oppe
@@ -26,6 +28,7 @@ Der er langt til Fredrikshavn
 
 - [ ] Det skal planlægges
 - Det skal være til foråret
+
 Alternativ 2 er at komme på et værft tæt på gråsten som Bo har hørt godt om.
 ### Opgaver til bedding
 - Skrabe bunden og bundmale
@@ -38,7 +41,9 @@ Alternativ 2 er at komme på et værft tæt på gråsten som Bo har hørt godt o
 # Fondansvarlig
 Fondsøgning er stagneret. 
 - [ ] Der mangler en ansvarlig
+
 Skibet Tara siger vi skal spørge dem når vi skal søge fonde, de vil gerne hjælpe
+
 Fondsøgerne skal bruge nogle informationer
 - Information om skibet
 	- Her kan man kontakte de holdansvarlige
@@ -56,7 +61,6 @@ Søfartstyrelsen har gjort Jens Krogh opmærksom på at det er vigtigt at de som
 Dette må antages også at være gældende for Betty. Det kan være at det skal nævnes til onsdagssejladser eller tryout og især før togter bør gaster blive mindet om at det skal have styr på deres forsikringer før sejladsen starter.
 
 Note: Jens Krogh er større end Betty så måske er reglerne mindre strikse til os.
-- [ ] Læg citat herind!!!
 
 # Køleskab
 Der er nogen med en anhængertræk som skal køre den til Skousen
@@ -65,20 +69,29 @@ Der er nogen med en anhængertræk som skal køre den til Skousen
 
 # Jan Thaysen
 God stemning, Jan Thaysen vil gerne hjælpe os.
+
 Vi må gerne være på pladsen over for bones. Udfordringen er at det koster ca. 13000.
+
 Konklusionen var at der skulle skrives et brev til fritidsforvaltningen.
+
 - Fritidsforvaltningen kunne betale for havnepladsen i stedet for at betale for et lokale
+
 Brevet er blevet sendt afsted og Jan Thaysen er CC'et til brevet
 
 Deadline er første April når kommunen er færdig med at bygge
 
 # Træskibetbetty.dk
-Hjemmesiden er oppe og køre. Medlemmer og andre kan skrive tekstfiler i sproget "Markdown" og de filer kan sendes til jeppe jeppefirring@gmail.com og så kommer de på hjemmesiden
+Hjemmesiden er oppe og køre. Medlemmer og andre kan skrive tekstfiler i sproget "Markdown" og de filer kan sendes til jeppe jeppefirring@gmail.com og så kommer de på hjemmesiden 
+
+[GUIDE HER]({{< ref "../../Arkiv/GuideTilHugo.md" >}} "GUIDE")
+
 Reglerne for markdown kan ses online (det er meget simpelt)
+
 Man laver et "# titel" og så skriver man brødteksten under og bum så spiser hjemmesiden den.
 
 # Vinter - Arbejde
 Holdledere skal mødes snart
+
 Der er kommet en masse folk på holdende
 - [ ] Jeppe tager kontakt
 
