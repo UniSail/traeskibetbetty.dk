@@ -1,0 +1,136 @@
+---
+date: "2024-09-01T17:29:33+02:00"
+draft: false
+title: "September 2024"
+---
+# Indholdsfortegnelse
+1. Nedrigning
+2. Sejladsplan næste år
+3. Sejladsplan efterår
+4. Styrbord planke skal skiftes af Jens Bådbygger
+5. Tryouts
+	1. Hver tirsdag
+6. Liggeplads
+7. Arbejdshold
+8. Ansøgning til skibsbevaringsfonden
+9. Sejltur med Viking
+10. Beddingstur til foråret
+11. Løst
+
+# Nedrigning
+**12-13. oktober!** 
+
+- [x] Frederik (Morten Rise) laver en liste over hvad der skal hjem til Bo ✅ 2024-10-07
+	- Hynder, bøger, sejl mm...
+		- Der er et hul i betrækket på en hynde
+	- Der er også en liste over ting der skal fikses. De ting skal ikke hjem til Bo
+- Skibsbibliotekar udnævnes - Amanda
+
+# Sejladsplan næste år
+Vi har tilmeldt os hele tallship races i 2025
+
+- Tall ships glæder sig til vi kommer (skrevet på mail)
+
+3 stk. - 3 ugers togter (det første skal starte meget tidligt)
+
+1. Aalborg-Sønderborg en weekend + fredag
+2. Første togt er de to første havne (Sønderborg - Le Havre - Dunkirk)
+	1. Alternativt (Aalborg - Le Havre - Dunkirk)
+	2. Alternativt (Brunsbüttel - Le Havre - Dunkirk)
+3. Anden togt er Dunkirk - Aberdeen - Kristiansand
+4. Tredje togt er Christiansand - Esbjerg - Aalborg
+	Alternativ er Esbjerg - Øresund (Øresund på langs)
+
+- [ ] Bo laver en officielt togt plan
+	- I hovedet
+
+Hvis der er nogen som virkelig gerne vil sejle Øresund på langs kan de kontakte Jens som muligvis har en kontakt som kan skaffe pladser ombord på et skib
+
+# Sejladsplan efterår
+Limfjorden Rundt - uge 37
+Weekendsejladser:
+
+1. Fredag d. 20. September
+2. Torsdag d. 3. Oktober
+
+# Tryouts
+1. Hver tirsdag kl 16-18 (måske senere)
+- Der skal laves mad hver gang
+- Fast besætning:
+	- Jeppe 
+	- Kat
+	- Amanda
+	- Malene
+	- Jens
+	- Ekstra folk / byt med fast besætning
+1. Afsluttes 08/10
+
+# Liggeplads
+Bo har skrevet til rådmanden
+
+- Til regatta sagde han det var spændende at finde ud af om vi kunne være her
+- Dvs. vi ikke ved om vi kan blive liggende
+
+Morten har skrevet til skudehavnen uden held (de svarer ikke)
+
+I vintermånederne kunne vi ligge os i skudehavnen for at undgå så meget vind og vejr 
+
+Kan vi få en rådmand herned til en onsdagssejlads hvor vi virkelig viser os frem som en ungdomsorganisation?
+
+- [x] Et event - Planlagt af Amanda ✅ 2024-10-07
+- Stor fremmødning - gerne i Betty tøj
+- [x] Morten skriver et udkast ✅ 2024-10-07
+- [x] Bo ringer til Jan Nymark Thaysen og pitcher eventet og hører hvad han tænker og om han kan komme d. 25. ✅ 2024-10-07
+- **Onsdag d. 25. September** (eller de næste to onsdage (2. & 9. Oktober))
+- Vi vil gerne have disse mennesker med
+	- Rådmand - Jan Nymark Thaysen
+	- Havnekaptajn - Claus Resenbech
+	- Direktør for port of aalborg - Christian Thuelsen Dahl
+	- Borgmester - Lasse Frimand Jensen
+	- Byrådsmand - Nuuradiin S. Hussein (13 u projekt på tech college)
+	- Byrådsmand - Evald Lange Rise
+	- Regatta arrangør - Rikke fra "Aalborg Event"
+
+# Arbejdshold
+Jeppe og Ida laver et udkast til organisering
+
+- Mængde af arbejdshold
+- Udnævnelse af koordinator
+- Koordingering af møder
+
+1. Fondsøgning - Mangler
+	- 
+2. Rig - Frederik
+	- 
+3. Motor - Morten Rise
+	- Jens, Kim
+4. El - Jeppe
+	- Jakob
+5. Aptering - Mangler 
+	- *"indvendigt udstyr i en båd eller et skib bl.a. skillevægge og møbler"* (alt indvendig pjat)
+6. Sikkerhedsudrustning - Amanda
+	- Tommy, Bo
+	- Navigationsudstyr
+
+Koordineringsmøder
+- Hvad skal ansøges af fonder
+
+# Sejltur med Viking
+Vi skylder Viking en sejltur. Det skal meget gerne være i Esbjerg. Derfor kunne det være en del af togtplanlægning.
+
+# Beddingstur i foråret
+Vi kan komme til Fredrikshavn, foreningsting som har en bedding som måske er gratis (rygtet)
+
+Amanda har meldt sig som beddingskoordinator
+
+- Må vi låne deres værksted?
+- Hvornår må vi ligge der?
+
+# Løst
+- Bibliotekar udnævnes
+	- Der skal styr på bøgerne
+	- Der skal laves en rodehylde
+- Telt
+	Udarbejdet en simpel 3d tegning som er sendt til tech college. De laver en prototype (hvis de har lyst)
+	![[Pasted image 20240902165213.png|300]]
+- Ny søkort

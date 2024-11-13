@@ -1,0 +1,113 @@
+---
+date: "2024-04-01T17:29:33+02:00"
+draft: false
+title: "April 2024"
+---
+# Bedding update
+Jens har ikke fået fat på Grenaa bedding endnu
+	Jens vil meget gerne have at beddingen er tæt på ham så han ikke skal køre enormt langt når han skal rette ting til i sit værksted og bare generelt skal køre langt
+Efter mødet update:
+	Grenaa melder at der ikke er plads, der er sat hastemøde op onsdag 3. april
+# Bedding arbejds plan
+- Jens Martensen
+	- Skifter planker agter
+	- Han kigger på planker i siden
+	- Bjørnen kigges på
+* Betty folk:
+	- Bundmalet
+	- Zinkanoder skiftes ud med magnesiumanoder
+	- Måske fribord skal ordnes (slibe og male eller lakere)  
+		- Hvis nok folk melder sig til
+	- Skiftet fedtsnoren
+	- Tjekker ekkoloddet efter fejl (virkede ikke sidste år mod shetlandsøerne)
+	- Kontrolleret jordpladen
+	- Skroggennemføringer skal tjekkes
+# Træ
+Blokkene har fået 1 olie og derefter 3 lag lak - Der skal flere lag på
+- [ ] Morten lund spørger sø kredsen om kalfatreværktøjer
+- Mads Berg vil gerne kalfatre og vi kan købe værktøj
+# Oprigning
+Kan vi få 2 bådsmandsstole
+- Låne fra jens krog?
+# Redningsveste
+8 Redningsveste er blevet kasseret
+- Eftersyn af redningsflåder og veste, kostede sammenlagt 25.000 kr.
+- Groede mug på vestene
+- Måske skal vestene vaskes om vinteren
+- Tørres når de har været våde (det gør vi allerede)
+- [ ] Skriv til Viking (life saving equipment) om vi må få vestene tilbage - De kunne bruges til øvelser og sådan noget.
+# Sejl
+- [-] Forstærkninger omkring øje på sejlet (AFLYST)
+	Denne opgave udsættes
+# Bjørnearbejdet (kan ske i vand)
+ * Bjørnen skal vaskes ned i eddike (for at fjerne lud)
+	- Fjern stævnrørsfedt
+	- Vaskes i ferskvand og pumpe eddike ud af skibet
+	- Efter tørring -> Mæt i lindolie og trætjære
+# Strøm
+* Morten Rise og Frederik mener ikke startbatterierne har det dårligt. 
+- Hjalte Faurholt Kristensen kommer og hjælper med at fejlsøge fejlstrøm
+- Prøv at slukke for strøm i forskellige steder på båden og se om der stadig er en fejl
+- Prøv at teste om fejlstrømssystemet er gået i stykker
+### Søgelamper
+- [ ] Tjek stik til søgelamper
+- [ ] Stik til søgelampe skal sættes under lønningen i stedet for de hvide planker
+- [ ] Kan vi skifte søgelamper ud med LED pærer?
+### Lommelygter
+Der skal være 3 lamper om bord (og 1 pandelampe)
+- [ ] De skal undersøges - Frederik
+### Pumper
+Ferskvandspumpen skal flyttes til kabyssen
+	Pressostaten skal hentes på onsdag og monteres
+Maskin lænsepumpen (som sidder på motoren)
+	Skifte impeller 
+	Skal monteres med sugekurv
+Ny pumpe til brønden
+	Fra biltema til brønden
+	Den nuværende pumpe laves til nødlænsepumpe hvor man kan sætte brandslange til
+Kirkpumpen (sidder i maskinen)
+	Ligger på dørken i banjen (skal monteres igen i maskinen)
+- [ ] Alle pumperne skal tjekkes - Det kan morten rise og company
+### Niveaumåler til lokumstank
+Måleren virker ikke - "den kan lyse og det er jo dejligt"
+- [ ] Den skal tjekkes og repareres
+- [ ] Sortvandspumpe skal tjekkes - Frederik forklarer Jens hvor den sidder
+# Hylder i bestikken
+Under bordene i begge sider kunne der være hylder - til opbevaring
+- [ ] Hvem tager den?
+# Sejl kort ryger ud på dørken
+Nede i bestikken op af siden mod maskinrummet skal der laves en lille smal låge som kan lukke ind til sejlkort
+- [ ] Jeppe tager et billede
+# Checklister
+Morten Lund har lavet en udkast til tjekliste til mindre sejladser
+- [ ] Morten Rise læser den igennem
+* e.g. hvad skal maskinmester tjekke
+Der er en QR kode hvor man kan melde folk ind til mindre sejladser
+- [ ] Der skal stadig laves en tjekliste til efteråret - Morten Lund
+	Den skal ligge i google forms
+# Havneplads
+Den nuværende aftale slutter i april
+- [ ] Morten Rise kigger lige om det passer
+# Kasserer
+Vi vil gerne have *assistenter* som kasserer (Tommy, Lotte og Nanna) men det vil være mest trygt for Bo at det er en person som han kender og stoler på (Thomas)  som håndterer så store beløb. 
+- [ ] De skal lave et kvitteringsindhentningssystem
+	Det kunne være sejt med en QR kode som man kan printe på noget træ eller metal som kan pynte på båden (syntes Jeppe)
+- [ ] Der mangler at uddele penge til duelighedsbevis
+Thomas kunne være med over teams på det næste møde. Det kunne de tre assistenter også
+# Plakater (igen)
+- [ ] Gymnasier - **Vil du tage opgaven!?**
+- [ ] Sejlklubben - **Vil du tage opgaven!?**
+# Næste møde
+* Første mandag i maj (6. maj)
+	- [x] Kontakt Thomas thomashvolby@gmail.com ✅ 2024-04-01
+	- [x] Kontakt Nanna, Lotte og Tommy ✅ 2024-04-01
+* Hastemøde når vi får svar fra Jens Martensen om bedding
+	* Onsdag 3. april
+
+
+
+
+
+
+
+
