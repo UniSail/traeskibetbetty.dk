@@ -2,6 +2,8 @@
 date: "2024-03-01"
 draft: false
 title: "Marts 2024"
+ShowToc: true
+TocOpen: true
 ---
 
 ## Strøm

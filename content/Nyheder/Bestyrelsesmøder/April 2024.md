@@ -2,6 +2,8 @@
 date: "2024-04-01"
 draft: false
 title: "April 2024"
+ShowToc: true
+TocOpen: true
 ---
 
 # Bedding update

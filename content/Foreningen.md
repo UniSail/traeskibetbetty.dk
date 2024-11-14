@@ -1,7 +1,9 @@
 ---
-date: "2024-10-27T23:59:29+01:00"
+date: "2024-10-28T00:00:39+01:00"
 draft: false
-title: "Mød bestyrelsen"
+title: "Foreningen"
+ShowToc: true
+TocOpen: true
 ---
 
 ## Bestyrelse
@@ -18,3 +20,11 @@ Pr. 2024 består bestyrelsen af:
 
 - **Amanda Ramskov** - Suppleant
 - **Jeppe Firring Givskud** - Suppleant
+
+## Kontakt
+
+...
+
+## Vedtægter
+
+...

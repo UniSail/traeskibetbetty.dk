@@ -2,24 +2,9 @@
 date: "2024-10-01"
 draft: false
 title: "Oktober 2024"
+ShowToc: true
+TocOpen: true
 ---
-
-# Indholdsfortegnelse
-
-- Bedding i Frederikshavn i marts/april?
-- [x] Bo skal finde kvittering på køleskab, så vi kan bytte det til nedrigning ✅ 2024-10-07
-- Hvor skal torv og sejl være over vinteren?
-- Havneplads i skudehavnen?
-- Kalfatrejern til Mads Berg (Christian vil gerne køre til tyskland)
-- Skal riggen deles op så Mads Berg er ansvarlig for træ?
-- Vinter "Arbejde"
-- [x] Kvittering for køleskab ✅ 2024-10-07
-- Jan Thaysen
-- [x] Plan for nedring ✅ 2024-10-07
-- Skader på sejl
-- Bo's liste
-- Sammenarbejde med Jens Krogh om Embla
-- De frivilliges hus opkræver penge
 
 # Bedding i Frederikshavn i marts/april?
 

@@ -2,17 +2,9 @@
 date: "2024-11-01"
 draft: false
 title: "November 2024"
+ShowToc: true
+TocOpen: true
 ---
-
-# Indhold
-
-- Fredrikshavn
-- Fondansvarlig
-- Søfartstyrelsen lettet pegefinger til Jens Krogh
-- Køleskab
-- Jan Thaysen
-- Træskibetbetty.dk
-- Vinter - Arbejde
 
 # Fredrikshavn
 

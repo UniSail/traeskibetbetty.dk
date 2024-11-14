@@ -2,22 +2,9 @@
 date: "2024-09-01"
 draft: false
 title: "September 2024"
+ShowToc: true
+TocOpen: true
 ---
-
-# Indholdsfortegnelse
-
-1. Nedrigning
-2. Sejladsplan næste år
-3. Sejladsplan efterår
-4. Styrbord planke skal skiftes af Jens Bådbygger
-5. Tryouts
-   1. Hver tirsdag
-6. Liggeplads
-7. Arbejdshold
-8. Ansøgning til skibsbevaringsfonden
-9. Sejltur med Viking
-10. Beddingstur til foråret
-11. Løst
 
 # Nedrigning
 
@@ -108,10 +95,8 @@ Jeppe og Ida laver et udkast til organisering
 - Udnævnelse af koordinator
 - Koordingering af møder
 
-1. Fondsøgning - Mangler
-   -
-2. Rig - Frederik
-   -
+1. ## Fondsøgning - Mangler
+2. ## Rig - Frederik
 3. Motor - Morten Rise
    - Jens, Kim
 4. El - Jeppe
