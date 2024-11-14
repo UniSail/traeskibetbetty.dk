@@ -18,7 +18,7 @@ params:
       Siden er ved at blive bygget. Der står ikke ret meget endnu men kig rundt 
       og tag endelig kontakt hvis du har spørgsmål. 
       Vi svarer på instagram og facebook.
-  socialIcons: 
+  socialIcons:
     - name: "Instagram"
       url: "https://www.instagram.com/traeskibet.betty/"
     - name: "Facebook"
@@ -63,6 +63,10 @@ menu:
     - identifier: indmeldelse
       name: Indmeldelse
       url: /indmeldelse/
+      weight: 50
+    - identifier: sponsorater
+      name: Sponsorater
+      url: /sponsorater/
       weight: 50
 #    - identifier: search # Denne funktion fungerer ikke optimalt - Jeppe
 #      name: Search
