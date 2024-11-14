@@ -6,7 +6,7 @@
 
 # Define the date and draft values
 
-DATE="2024-03-23T17:29:33+02:00"
+DATE="2024-03-23"
 
 DRAFT="false"
 
