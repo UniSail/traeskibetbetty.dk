@@ -6,7 +6,7 @@ title: "Elektronik møde 20/11/2025"
 
 - Diskutere el net
 	- Hvor/hvor mange afbrydere skal der være
-	- Man kune sige "Når der laves en gruppe skal denne gruppe kunne slukkes"
+	- Man kunne sige "Når der laves en gruppe skal denne gruppe kunne slukkes"
 - Hvor køber vi udstyr?
 	- [ ] Giv Morten Rise en pris på el-systemet - Jeppe Givskud
 		- Vi har et forslag på pris på 
