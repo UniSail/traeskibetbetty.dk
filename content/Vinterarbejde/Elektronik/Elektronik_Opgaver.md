@@ -15,7 +15,7 @@ title: "Elektronik opgaver 24/25"
 | 24 V lampe i bestikken                                                                                                                                                                                                                           |                                                                                                                                                                                              |           |        |
 | Kortplotteren har NMEA funktionaliteter                                                                                                                                                                                                          | NMEA er en protokol som maritime enheder bruger til at dele information med hinanden. <br>- Hvilke af vores udstyr kan snakke med NMEA<br>- Der mangler måske en ledning ind i kortplotteren |           | Lav    |
 | Dækslys skal fikses |  Hvis de skal udskiftes ville det være fint med rødt eller hvidt lys (som man kan indstille)    |           | Høj    |
-| Sattelit telefon |   Bruges til at lave nødkald i områder uden for VHF - Strengt nødvendig da MFHF måske ikke blive geninstalleret   |           | Høj    |
+| Sattelit telefon |   Bruges til at lave nødkald i områder uden for VHF - Strengt nødvendig da MFHF måske ikke blive geninstalleret (3.07.2 OG 3.07.7 skal opfyldes) https://sailtraininginternational.org/app/uploads/2024/06/2024-RACING-RULES-AND-SPECIAL-REGULATIONS.pdf  |           | Høj    |
 | Arbejdslys i masterne |  Afventer accept fra rigudvalget   |           | lav    |
 
 ## Strøm
