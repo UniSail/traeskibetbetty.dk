@@ -13,3 +13,9 @@ git submodule update --init --recursive # needed when you reclone your repo (sub
 ```
 hugo serve
 ```
+
+For at konvertere et dokument til pdf kan følgende bruges:
+
+```
+pandoc "April 2024.md" -o test.pdf --pdf-engine=xelatex
+```
