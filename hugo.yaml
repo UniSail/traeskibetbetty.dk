@@ -57,3 +57,15 @@ menu:
       name: Sponsorater
       url: /sponsorater/
       weight: 50
+
+markup:
+  goldmark:
+    extensions:
+      extras:
+        delete:
+          enable: true
+        subscript:
+          enable: true
+      strikethrough: false
+    renderer:
+      unsafe: true
