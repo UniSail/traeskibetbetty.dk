@@ -4,7 +4,6 @@ defaultContentLanguage: da-dk
 title: Træskibet Betty
 theme:
   - PaperMod
-  - hugo-embed-pdf-shortcode
 params:
   enableInlineShortcodes: true
   editPost:
