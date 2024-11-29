@@ -2,8 +2,11 @@ baseURL: https://traeskibetbetty.dk/
 languageCode: da-dk
 defaultContentLanguage: da-dk
 title: Træskibet Betty
-theme: PaperMod
+theme:
+  - PaperMod
+  - hugo-embed-pdf-shortcode
 params:
+  enableInlineShortcodes: true
   editPost:
     URL: "https://github.com/UniSail/traeskibetbetty.dk/tree/main/content"
     Text: "Suggest Changes" # edit text
@@ -17,27 +20,14 @@ params:
     Content: |
       Siden er ved at blive bygget. Der står ikke ret meget endnu men kig rundt 
       og tag endelig kontakt hvis du har spørgsmål. 
-      Vi svarer på instagram og facebook.
+      Vi svarer på instagram og facebook. [Håndbog i Betty]({{< ref "Håndbog i betty.md" >}} "Håndbog i Betty")
+
   socialIcons:
     - name: "Instagram"
       url: "https://www.instagram.com/traeskibet.betty/"
     - name: "Facebook"
       url: "https://www.facebook.com/BettyAfAalborg"
-#  fuseOpts:
-#    isCaseSensitive: false
-#    shouldSort: true
-#    location: 0
-#    distance: 1000
-#    threshold: 0.4
-#    minMatchCharLength: 0
-#    # limit: 10 # refer: https://www.fusejs.io/api/methods.html#search
-#    keys: ["title", "permalink", "summary", "content"]
 
-#outputs:
-#  home:
-#    - HTML
-#    - RSS
-#    - JSON # necessary for search
 menu:
   main:
     - identifier: Vinterarbejde
@@ -68,15 +58,3 @@ menu:
       name: Sponsorater
       url: /sponsorater/
       weight: 50
-#    - identifier: search # Denne funktion fungerer ikke optimalt - Jeppe
-#      name: Search
-#      url: /search/
-#      weight: 50
-#    - identifier: kategorier
-#      name: Kategorier
-#      url: /kategorier/
-#      weight: 60
-#    - identifier: tags
-#      name: Tags
-#      url: /tags/
-#      weight: 70
