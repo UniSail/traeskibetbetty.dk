@@ -24,3 +24,5 @@ Skipper: Tommy, Jakob og Jens.
 Esbjerg 8. august - rundt i DK - Aalborg 22. august
 
 Skipper: Frederik. 
+
+![kristiansand2023](/img/kristiansand2023)
