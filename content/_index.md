@@ -4,6 +4,6 @@ draft: false
 title: ""
 ---
 
-![Betty](/img/betty_header.png)
+![Æstetisk billede af træskibet betty](/img/betty_header.png)
 
 [Håndbog til træskibet Betty](PDF/Handbook.pdf) -- <a href="PDF/Handbook.pdf" download>⇓ DOWNLOAD ⇓</a>
