@@ -60,3 +60,6 @@ draft: true #Gemmer filen så den ikke kommer på hjemmesiden
 ```
 ### Hvordan laver jeg avanceret stuff
 Det ved jeg godt nok ikke. Måske ring til en voksen.
+
+
+### EN BESKED TIL FREDERIK
