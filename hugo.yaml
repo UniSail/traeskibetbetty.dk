@@ -29,6 +29,10 @@ params:
 
 menu:
   main:
+    - identifier: sommertogter
+      name: Sommertogter 
+      url: /sommertogter/
+      weight: 2
     - identifier: Vinterarbejde
       name: Vinter arbejde
       url: /Vinterarbejde/
