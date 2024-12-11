@@ -17,4 +17,3 @@ Tusind tak for at melde jer til :D
 
 Herunder kan ses et diagram over elsystemer. Det er taget fra en fantastisk ressource om el ombord på skibe: https://vimeo.com/871439384/2bdb0fe696?ts=0&share=copy
 ![Billede af et korrekt elsystem](./img/ideal.png)
-

@@ -20,8 +20,8 @@ Jem og Fix har været så gavmilde at sponsorere et gavekort på 5000 kr til der
 
 ### VIKING
 
-VIKING laver nødudstyr og har været vores primære kontakt til reperation af rednignsflåder og redningsveste. Udstyr som bruges slides og miljøet på en båd er hård. VIKING servicerede redningsflåderne og fyldte ny mad og vand i dem og servicerede redningsvestene og udskiftede en række af dem. De sponsorerede en væsentlig del af serviceringsarbejdet og vi takker dem mange gange!
+VIKING laver nødudstyr og har været vores primære kontakt til reparation af redningsflåder og redningsveste. Udstyr som bruges slides og miljøet på en båd er hård. VIKING servicerede redningsflåderne og fyldte ny mad og vand i dem og servicerede redningsvestene og udskiftede en række af dem. De sponsorerede en væsentlig del af serviceringsarbejdet og vi takker dem mange gange!
 
 ### Cobham Satcom
 
-Cobham Satcom har sponsoreret en reperation af vores bærbare VHF nødradio "SAILOR SP3520" og har i samme omgang doneret en helt ny "SAILOR SP3520" til skibet. Dermed har vi to nødradioer så den ene kan være lokaliseret bagerst i skibet og den anden i soveområdet.
+Cobham Satcom har sponsoreret en reparation af vores bærbare VHF nødradio "SAILOR SP3520" og har i samme omgang doneret en helt ny "SAILOR SP3520" til skibet. Dermed har vi to nødradioer så den ene kan være lokaliseret bagerst i skibet og den anden i soveområdet.

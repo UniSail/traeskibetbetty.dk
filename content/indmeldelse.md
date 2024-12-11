@@ -6,7 +6,7 @@ title: "Indmeldelse"
 
 Hvordan melder jeg mig ind i foreningen?
 
-Du kan altid tage kontakt til os igennem instagram eller facebook
+Du kan altid tage kontakt til os igennem instagram eller Facebook
 
 - https://www.facebook.com/BettyAfAalborg
 - https://www.instagram.com/traeskibet.betty/

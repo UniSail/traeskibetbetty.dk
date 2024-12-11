@@ -8,7 +8,7 @@ TocOpen: true
 
 ## Bestyrelse
 
-I Unisail er der 4 bestyrelsesmedlemmer og 2 suppleanter
+I UniSail er der 4 bestyrelsesmedlemmer og 2 suppleanter
 
 Disse udvælges til det årlige generalforsamling.
 Pr. 2024 består bestyrelsen af:
