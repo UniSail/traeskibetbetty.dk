@@ -5,6 +5,9 @@ title: Træskibet Betty
 theme:
   - PaperMod
 params:
+  assets:
+    disableHLJS: true
+    favicon: "/img/favicon.ico"
   enableInlineShortcodes: true
   editPost:
     URL: "https://github.com/UniSail/traeskibetbetty.dk/tree/main/content"
@@ -30,7 +33,7 @@ params:
 menu:
   main:
     - identifier: sommertogter
-      name: Sommertogter 
+      name: Sommertogter
       url: /sommertogter/
       weight: 2
     - identifier: Vinterarbejde
