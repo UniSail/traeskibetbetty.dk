@@ -41,7 +41,7 @@ Aberdeen 21. juli - Kristiansand - Esbjerg 8. august
 
 Dette togt er et Tall Ship Race togt. Togtet starter i Aberdeen, hvor skibet forberedes på Kapsejladsen til Norge. Derefter sætter vi kurs mod Norge, sejladsen til Norge starter med en flere dage kapsejlads til den norske vestkyst, hvor derefter er planlagt en ’Cruise and Company’, hvor vi besøger små naturskønne havne på vejen til Kristiansand. I Kristiansand vil der være en regatta med festligheder og aktiviteter planlagt af Tall Ship Races. Herefter sætter vi kurs mod Esbjerg, i den sidste kapsejlads i dette års Tall Ship Race. I Esbjerg vil festlighederne og aktiviteterne gentages.
 
-Skipper: Jens, Amanda og Tommy
+Skipper: Jens, Jakob og Tommy
 
 ## Togt 3:
 
