@@ -15,11 +15,13 @@ Så meld dig ind i foreningen omkring Betty og tag på en eller flere af Bettys 
 
 ## Lidt om Bettys sommertogter og Tall Ship Races:
 
-Sommertogt på foreningsskibet Betty er en god mulighed for at holde anderledes sommerferie på et 111 år gammelt træskib sammen med ni andre unge. Det kræver ingen tidligere sejlerfaring, bare eventyrlyst, og at man melder sig in i foreningen. Der vil være 4 erfarne Betty-sejlere på hvert togt, der er mega klar på at oplære dig i sejsætning, sikkerhed og sømandskab.
+Sommertogt på foreningsskibet Betty er en god mulighed for at holde anderledes sommerferie på et 111 år gammelt træskib sammen med en flok andre unge. Det kræver ingen tidligere sejlerfaring, bare eventyrlyst, og at man melder sig ind i foreningen. Der vil være 4 erfarne Betty-sejlere på hvert togt, der er meget klar på at oplære dig i sejlsætning, sikkerhed og sømandskab.
+
 I år deltager Betty igen i den international kapsejlads - Tall Ship Races. 
 
 Tall Ship Races har til formål at få unge, studerende og sejlskibs interesseret ud og sejle sammen. Der deltager over 60 traditionelle skibe fra hele verden, hvor der i hver havn, vil være planlagt en regatta med festligheder og aktiviteter for hele besætning. Imellem regattaerne i havnene er der kapsejladser. Disse kapsejladser forgår over flere dage, hvor man tager del i vagtrul. Her får man mulighed for at forsøge sig med natsejlads, og blive mega god til at sejle gaffelriget skibe som Betty. 
 
+## Tilmelding til togterne [TRYK HER](https://docs.google.com/forms/d/e/1FAIpQLSfOOM_BlOLvxLnzHmNnBbXXcmQpw_FrxyJ0HhycdSsBv-JxFw/viewform?usp=dialog)
 
 ## Togt 0:
 Aalborg 5. juni - Pinsestævne Næstved - Brunsbüttel 15. juni
