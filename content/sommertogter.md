@@ -21,7 +21,7 @@ I år deltager Betty igen i den international kapsejlads - Tall Ship Races.
 
 Tall Ship Races har til formål at få unge, studerende og sejlskibs interesseret ud og sejle sammen. Der deltager over 60 traditionelle skibe fra hele verden, hvor der i hver havn, vil være planlagt en regatta med festligheder og aktiviteter for hele besætning. Imellem regattaerne i havnene er der kapsejladser. Disse kapsejladser forgår over flere dage, hvor man tager del i vagtrul. Her får man mulighed for at forsøge sig med natsejlads, og blive mega god til at sejle gaffelriget skibe som Betty. 
 
-## Tilmelding til togterne [TRYK HER](https://docs.google.com/forms/d/e/1FAIpQLSfOOM_BlOLvxLnzHmNnBbXXcmQpw_FrxyJ0HhycdSsBv-JxFw/viewform?usp=dialog)
+### Tilmelding til togterne [TRYK HER](https://docs.google.com/forms/d/e/1FAIpQLSfOOM_BlOLvxLnzHmNnBbXXcmQpw_FrxyJ0HhycdSsBv-JxFw/viewform?usp=dialog)
 
 ## Togt 0:
 Aalborg 5. juni - Pinsestævne Næstved - Brunsbüttel 15. juni
