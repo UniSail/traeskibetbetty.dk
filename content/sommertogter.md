@@ -3,7 +3,7 @@ date: "2024-12-10"
 draft: false
 title: "Sommertogter"
 ---
-
+![billede](/img/forside.jpg)
 # Betty sommertogter 2025
 
 Kalder alle unge, studerende og træskibs interesserede! 
