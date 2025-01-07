@@ -5,5 +5,3 @@ title: ""
 ---
 
 ![Æstetisk billede af træskibet betty](/img/betty_header.png)
-
-[Håndbog til træskibet Betty](PDF/Handbook.pdf)
