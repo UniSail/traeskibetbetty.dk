@@ -1,32 +1,4 @@
 {
   "eslint.enable": true,
   "eslint.run": "onSave",
-  "cSpell.language": "da,en",
-  "cSpell.words": [
-    "arduino",
-    "bestikken",
-    "Brunsbüttel",
-    "Cobham",
-    "cssclasses",
-    "Dunkirk",
-    "excel",
-    "Heebøll",
-    "Kirkpumpen",
-    "Mardel",
-    "megger",
-    "MFHF",
-    "NMEA",
-    "Nuuradiin",
-    "Resenbech",
-    "SAILOR",
-    "Satcom",
-    "Sinnavar",
-    "Sortvandspumpe",
-    "Thuelsen",
-    "Toplicht",
-    "traeskibetbetty",
-    "Unioo",
-    "UniSail",
-    "watermaker"
-  ]
 }

@@ -48,8 +48,9 @@ Vi bruger PaperMod til HUGO https://github.com/adityatelange/hugo-PaperMod
 4. Åbn vscode og login med github
 5. Lav en klon af traeskibetbetty.dk (du burde kunne trykke dig frem til det. Ellers er google din ven)
    Nu skulle du gerne have en masse filer og have installeret hugo og papermod
-6. Find en terminal i VSCODE og kør `hugo serve`
-7. Se hvordan det andet er lavet / Søg på google. Det er ikke super svært men det er lidt svært nogle gange
+6. git submodule update --init --recursive
+7. Find en terminal i VSCODE og kør `hugo serve`
+8. Se hvordan det andet er lavet / Søg på google. Det er ikke super svært men det er lidt svært nogle gange
 
 ### Tips
 
@@ -84,5 +85,3 @@ draft: true #Gemmer filen så den ikke kommer på hjemmesiden
 ### Hvordan laver jeg avanceret stuff
 
 Det ved jeg godt nok ikke. Måske ring til en voksen.
-
-### EN BESKED TIL FREDERIK

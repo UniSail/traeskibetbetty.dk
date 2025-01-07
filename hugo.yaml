@@ -5,6 +5,13 @@ title: Træskibet Betty
 theme:
   - PaperMod
 params:
+  ShowReadingTime: true
+  ShowShareButtons: true
+  ShowPostNavLinks: true
+  ShowBreadCrumbs: true
+  ShowCodeCopyButtons: false
+  ShowWordCount: true
+  ShowRssButtonInSectionTermList: true
   assets:
     disableHLJS: true
     favicon: "/img/favicon.ico"
