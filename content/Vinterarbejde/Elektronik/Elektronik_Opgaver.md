@@ -24,13 +24,15 @@ title: "Elektronik opgaver 24/25"
 
 ## Strøm
 
-| Opgave                          | Beskrivelse                                                                                                                                           | Måned | Prioritet |
-| ------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------- | ----- | --------- |
-| Telefon opladning i køjer       |                                                                                                                                                       |       | Super lav |
-| Batteri prioritering            | Navigationsbatterierne skal oplades først og så starterbatterier og så forbrugsbatterier                                                              |       | Super høj |
-| Batteri måler                   | smart shunt skal placeres et andet sted                                                                                                               |       | Høj       |
-| Batteri placering               | Batterierne skal ud af maskinrummet                                                                                                                   |       | Medium    |
-| Batteri afbryder                |                                                                                                                                                       |       | Høj       |
-| Lysmaskine selvstarter          | Andreas har en ide til komponenter.<br>Alternativt kan man bruge en mikrocontroller (arduino)                                                         |       | Medium    |
-| Ledning fordeles i grupper      | Der skal være labels på ledning som går til de forskellige batterier<br>Der skal være 12, 24 og 230V grupper<br>Der skal sikringer på alle nye kasser |       | Super Høj |
-| Ledninger skal føres ordentligt |                                                                                                                                                       |       | Medium    |
+| Opgave                          | Beskrivelse                                                                                                                                         | Måned | Prioritet |
+| ------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------- | ----- | --------- |
+| Telefon opladning i køjer       |                                                                                                                                                     |       | Super lav |
+| Batteri prioritering            | Navigationsbatterierne skal oplades først og så starterbatterier og så forbrugsbatterier                                                            |       | Super høj |
+| Batteri måler                   | smart shunt skal placeres et andet sted                                                                                                             |       | Høj       |
+| Batteri placering               | Batterierne skal ud af maskinrummet                                                                                                                 |       | Medium    |
+| Batteri afbryder                |                                                                                                                                                     |       | Høj       |
+| Lysmaskine selvstarter          | Andreas har en ide til komponenter.<br>Alternativt kan man bruge en mikrocontroller (arduino)                                                       |       | Medium    |
+| Ledning fordeles i grupper      | Der skal være labels på ledning som går til de forskellige batterier<br>Der skal være 12, 24 og 230V grupper. Der skal sikringer på alle nye kasser |       | Super Høj |
+| Ledninger skal føres ordentligt |                                                                                                                                                     |       | Medium    |
+| Køleskabet skal kobles til jord | Det betyder at der skal laves jord et sted på Betty                                                                                                 |       | Høj       |
+| Der skal laves Jord             |                                                                                                                                                     |       | Høj       |
