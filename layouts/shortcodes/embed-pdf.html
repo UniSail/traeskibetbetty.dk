@@ -8,6 +8,7 @@
     width: 100%;
     height: auto;
     min-height: 20vh;
+    padding: 100px;
     /* overflow-y:scroll; */
   }
   
@@ -49,32 +50,34 @@
   
   {{/*  Download link  */}}
   
+    #overlayText {
+      word-wrap: break-word;
+      display: flex;
+      justify-content: flex-end;
+    }
   
-  
-  #overlayText {
-    word-wrap: break-word;
-    display: grid;
-    justify-content: end;
-  }
-  
-  #overlayText a {
-    position: relative;
-    top: 10px;
-    right: 4px;
-    color: #000;
-    margin: auto;
-    background-color: #eeeeee;
-    padding: 0.3em 1em;
-    border: solid 2px;
-    border-radius: 12px;
-    border-color: #00000030;
-    text-decoration: none;
-  }
-  
-  #overlayText svg {
-    height: clamp(1em, 2vw, 1.4em);
-    width:  clamp(1em, 2vw, 1.4em);
-  }
+    #overlayText a {
+      position: relative;
+      /* top: 10px;
+      right: 4px; */
+      color: #000;
+      margin: auto;
+      background-color: #eeeeee;
+      padding: 0.3em 1em;
+      border: solid 2px;
+      border-radius: 12px;
+      border-color: #00000030;
+      text-decoration: none;
+    }
+    #overlayText div {
+      align-self: center;
+      font-size: larger;
+      flex: 1}
+
+    #overlayText svg {
+      height: clamp(1em, 2vw, 1.4em);
+      width: clamp(1em, 2vw, 1.4em);
+    }
   
   
   
@@ -93,6 +96,7 @@
         <div class="pdf-loading" id="pdf-loading-{{ substr (.Get "url" | md5) 0 8 }}"></div>
     </div>
     <div id="overlayText">
+      <div id="pdf-documentname-{{ substr (.Get "url" | md5) 0 8 }}"></div>
       <a href="{{ .Get "url" }}" aria-label="Download" download>
         <svg aria-hidden="true" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 18 18">
             <path d="M9 13c.3 0 .5-.1.7-.3L15.4 7 14 5.6l-4 4V1H8v8.6l-4-4L2.6 7l5.7 5.7c.2.2.4.3.7.3zm-7 2h14v2H2z" />
@@ -122,6 +126,9 @@ View the PDF file <a class="pdf-source" id="pdf-source-noscript-{{ substr (.Get 
     var hidePaginator = "{{ .Get "hidePaginator" }}" === "true";
     var hideLoader = "{{ .Get "hideLoader" }}" === "true";
     var selectedPageNum = parseInt("{{ .Get "renderPageNum" }}") || 1;
+
+    // Extract the document name from the URL
+    var documentName = url.substring(url.lastIndexOf('/') + 1);
 
     // Loaded via <script> tag, create shortcut to access PDF.js exports.
     var pdfjsLib = window['pdfjs-dist/build/pdf'];
@@ -258,6 +265,10 @@ View the PDF file <a class="pdf-source" id="pdf-source-noscript-{{ substr (.Get 
 
       // Initial/first page rendering
       renderPage(pageNum);
+
+      // Set the document name to an element
+      document.getElementById('pdf-documentname-{{ substr (.Get "url" | md5) 0 8 }}').textContent = documentName;
+
     });
     })();
 </script>
