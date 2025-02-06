@@ -15,7 +15,7 @@ Vi er pr dags dato sponsoreret af
 
 ### Jem og fix
 
-Jem og Fix har været så gavmilde at sponsorere et gavekort på 5000 kr til deres butikker. Gavekortet kunne bruges på hvad som helst og det blev blandt andet benyttet til at putte et super flot og solidt telt over Betty til [Vinter Arbejde]({{< ref "./Vinterarbejde/_index.md" >}} "Vinter Arbejde")
+Jem og Fix har været så gavmilde at sponsorere et gavekort på 5000 kr til deres butikker. Gavekortet kunne bruges på hvad som helst og det blev blandt andet benyttet til at putte et super flot og solidt telt over Betty til [Vinter Arbejde]({{< ref "./Arbejdshold/_index.md" >}} "Vinter Arbejde")
 
 ### Cobham Satcom
 

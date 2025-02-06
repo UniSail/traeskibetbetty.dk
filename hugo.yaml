@@ -25,12 +25,12 @@ params:
   ShowBreadCrumbs: true
   defaultTheme: dark
   homeInfoParams:
-    Title: Velkommen til Træskibet Betty
+    Title: Træskibet Betty - Et sejlende fællesskab
     Content: |
-      Siden er ved at blive bygget. Der står ikke ret meget endnu men kig rundt 
-      og tag endelig kontakt hvis du har spørgsmål. 
-      Vi svarer på instagram og facebook. [Håndbog i Betty]({{< ref "Håndbog i betty.md" >}} "Håndbog i Betty")
-
+      Velkommen ombord på Træskibet Bettys hjemmeside!
+      Oplev forenings fælleskab, historie og maritime aktiviteter.
+      Foreningen UniSails formål er at skabe unikke oplevelser til havs for unge og studerende i Aalborg
+      Kunne du tænkte dig at blive en del af et sejlende fælleskab, læs mere og tilmeld dig [her]({{< ref "./indmeldelse/_index.md" >}})
   socialIcons:
     - name: "Instagram"
       url: "https://www.instagram.com/traeskibet.betty/"
@@ -43,9 +43,9 @@ menu:
       name: Sommertogter
       url: /sommertogter/
       weight: 2
-    - identifier: Vinterarbejde
-      name: Vinter arbejde
-      url: /Vinterarbejde/
+    - identifier: Arbejdshold
+      name: Arbejdshold
+      url: /Arbejdshold/
       weight: 5
     - identifier: nyheder
       name: Nyheder
@@ -55,14 +55,6 @@ menu:
       name: Skibet
       url: /skibet/
       weight: 20
-    - identifier: foreningen
-      name: Foreningen
-      url: /foreningen/
-      weight: 30
-    - identifier: arkiv
-      name: Arkiv
-      url: /arkiv/
-      weight: 40
     - identifier: indmeldelse
       name: Indmeldelse
       url: /indmeldelse/

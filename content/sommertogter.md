@@ -2,8 +2,9 @@
 date: "2024-12-10"
 draft: false
 title: "Sommertogter"
+cover:
+  image: "img/kristiansand2023.jpg"
 ---
-![billede](/img/forside.jpg)
 
 ## Betty sommertogter 2025
 
@@ -13,6 +14,8 @@ Til sommer stævner vi ud på dette års sommertogt og sætter kurs mod Dunkirk,
 Så mangler du noget at lave i sommerferien og kunne du tænke dig at opleve sejlads til Frankrig, Skotland og Norge. Eller at være med til at sikre Betty en stærk placering i kapsejladserne sammen med andre unge og studerende? Og derefter mærke feststemningen og glæden i hver en af værtshavnene?
 
 Så meld dig ind i foreningen omkring Betty og tag på en eller flere af Bettys sommertogter og vær med til den årlige kapsejlads med hundredvis af andre traditionelle skibe og mød andre unge fra hele verden.
+
+![Sommertogt](/img/Tall_ship_race.png)
 
 ### Lidt om Bettys sommertogter og Tall Ship Races
 
@@ -53,7 +56,3 @@ Esbjerg 8. august - rundt i DK - Aalborg 22. august.
 Dette togt er ikke et Tall Ship Race togt. Togtet starter i Esbjerg, hvor der sejledes, ’hvor vinden tager os hen!’. Planen er at sejle igennem Kieler kanalen og rundt i det dejlige fynske øhav med forskellige stop i skønne havne på vejen. Herefter sættes kursen til Aalborg.
 
 Skipper: Frederik
-
-![Sommertogt](/img/Tall_ship_race.png)
-
-![Kristiansand 2023](/img/kristiansand2023.jpg)

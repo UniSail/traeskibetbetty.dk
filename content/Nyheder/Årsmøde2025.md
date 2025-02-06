@@ -1,9 +1,11 @@
 ---
-date: 2025-02-03
+date: 2025-02-05
 draft: false
 title: Årsmøde 2025
 ShowToc: true
 TocOpen: true
+cover:
+  image: "img/Meeting.png"
 ---
 
 ## Formandens beretning 2025
