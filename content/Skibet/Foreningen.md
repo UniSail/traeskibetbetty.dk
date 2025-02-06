@@ -1,6 +1,6 @@
 ---
 date: "2025-02-05"
-draft: false
+draft: true
 title: "Foreningen"
 ShowToc: true
 TocOpen: true
