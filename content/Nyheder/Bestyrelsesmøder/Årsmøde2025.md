@@ -62,7 +62,7 @@ Vi sejlede videre mod Rödhamn.
 
 Der var en stor skonnert, som Jens og Bo var ude og kigge på.
 
-Det sidste ben var mod Szczecin. Sejladsen gik stort set udmærket. Vi skulle beslutte, om vi skulle øst eller vest om en ø (INDSÆT). Da vi kom syd om (INDSÆT), begyndte det at blæse. Vi sejlede 11 knob (jævnfør Jens).
+Det sidste ben var mod Szczecin. Sejladsen gik stort set udmærket. Vi skulle beslutte, om vi skulle øst eller vest om Gotland. Da vi kom syd for Gotland, begyndte det at blæse. Vi sejlede 11 knob (jævnfør Jens).
 
 Vi havde et stop undervejs. Vi kom derind efter adskillige opkald og fik at vide, at vi kunne ligge på siden af Ruben, en god ven med mange reservedele, som har hjulpet os mange gange.
 
@@ -74,7 +74,7 @@ Det var så slutningen på Tall Ship Races.
 Nu begyndte Togt 4.
 Vi besluttede at skulle syd om Rügen. Vi fandt ud af, at der var nogle fjordarme, og vi var i tvivl om, der var vand nok. Tara fortalte, at der ikke var vand nok. Men det gik, så der var i hvert fald 196 cm.
 
-Så kom vi til Wolgast, en forholdsvis lille by, og derfra videre til Stralsund. Herefter videre mod København ifølge planen, men fra Stralsund sejlede vi op langs Rügen, og der fandt vi en hyggelig havn, som vi sejlede til. Vi skulle mod København for at deltage i Øresund på langs. Det gik som vi plejede --> "!!!Udbrud fra foreningen!!!". Vi vandt nemlig begge kapsejladser. Vi vandt også yngste besætning. Så det gik tilsyneladende fremragende.
+Så kom vi til Wolgast, en forholdsvis lille by, og derfra videre til Stralsund. Herefter videre mod København ifølge planen, men fra Stralsund sejlede vi op langs Rügen, og der fandt vi en hyggelig havn i Schaprode, som vi sejlede til. Vi skulle mod København for at deltage i Øresund på langs. Det gik som vi plejede --> "!!!Udbrud fra foreningen!!!". Vi vandt nemlig begge kapsejladser. Vi vandt også yngste besætning. Så det gik tilsyneladende fremragende.
 
 Vi skulle nordpå mod Hallands Väderö. Det var udmærket. Så sejlede vi til Anholt og var ude og gå en knoldet tur der. Her fik Bo et lift tilbage af nogle venlige bilister.
 
