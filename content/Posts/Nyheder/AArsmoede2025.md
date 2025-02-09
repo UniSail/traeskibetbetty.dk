@@ -277,3 +277,4 @@ Der er arbejdsweekend lørdag, og vi mødes kl. 10 i Hobro og tager hjem efter a
 
 - Der bliver potentielt 3 biler med pladstil 12 personer
   - Skriv til Amanda, Morten eller Jens
+  
