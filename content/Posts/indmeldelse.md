@@ -1,8 +1,11 @@
 ---
 date: "2024-10-27"
 draft: false
-title: "Indmeldelse"
+title: "Indmeldelse i UniSail"
+identifier: "Indmeldelse"
+weight: 20
 ---
+
 Du melder dig ind ved at udfylde blanketten via linket her på siden. Når din tilmelding er registreret, sker betalingen af kontingentet nemt og hurtigt gennem MinForening-appen.
 
 1. Man udfylder indmeldelsesblanketten [HER](https://docs.google.com/forms/d/e/1FAIpQLSdyT0wP4VgZDm7jutsMoUuHmtcx8qzqthi9CyBmNgeC8dRKEA/viewform?fbclid=PAZXh0bgNhZW0CMTEAAaaDeYSj6o3rWcpBiEuD3ILtzR_AlyMd3Xqz3RLQQLI9Kft6iAChYFu1dp4_aem_nheotNanQc5aQdTqs4948w)
@@ -26,4 +29,4 @@ Kontingentet betales nemt gennem MinForening-appen, som du kan downloade via App
 - Bliv en del af et socialt og engageret fællesskab.
 - Læring og udvikling: Lær om skibsvedligeholdelse og sejlads.
 - Aktiviteter året rundt: Sommersejladser og vintervedligeholdelse.
-- Historisk bevaring: Bidrag til at bevare en del af den maritime kulturarv.
+- Historisk bevaring: Bidrag til at bevare en del af den maritime kulturarv

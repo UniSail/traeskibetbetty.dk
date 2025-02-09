@@ -2,6 +2,10 @@
 date: "2024-11-14"
 draft: false
 title: "Sponsorater"
+identifier: "Sponsorater"
+name: Sponsorater
+url: /Sponsorater/
+weight: 30
 ---
 
 Betty er et forenings skib og har derfor brug for sponsorater for at få råd til vedlighold og almindelig drift.

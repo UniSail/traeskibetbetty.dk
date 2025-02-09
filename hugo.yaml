@@ -4,13 +4,12 @@ defaultContentLanguage: da-dk
 title: Træskibet Betty
 theme:
   - PaperMod
+
 params:
   ShowReadingTime: true
   ShowShareButtons: true
   ShowPostNavLinks: true
   ShowBreadCrumbs: true
-  ShowCodeCopyButtons: false
-  ShowWordCount: true
   ShowRssButtonInSectionTermList: true
   assets:
     disableHLJS: true
@@ -20,48 +19,24 @@ params:
     URL: "https://github.com/UniSail/traeskibetbetty.dk/tree/main/content"
     Text: "Suggest Changes" # edit text
     appendFilePath: true # to append file path to Edit link
-  ShowPostNavLinks: true
-
-  ShowBreadCrumbs: true
   defaultTheme: dark
-  homeInfoParams:
-    Title: Træskibet Betty - Et sejlende fællesskab
-    Content: |
-      Velkommen ombord på Træskibet Bettys hjemmeside!
-      Oplev forenings fælleskab, historie og maritime aktiviteter.
-      Foreningen UniSails formål er at skabe unikke oplevelser til havs for unge og studerende i Aalborg
-      Kunne du tænkte dig at blive en del af et sejlende fælleskab, læs mere og tilmeld dig [her]({{< ref "./indmeldelse/_index.md" >}})
-  socialIcons:
-    - name: "Instagram"
-      url: "https://www.instagram.com/traeskibet.betty/"
-    - name: "Facebook"
-      url: "https://www.facebook.com/BettyAfAalborg"
-
 menu:
   main:
-    - identifier: sommertogter
-      name: Sommertogter
-      url: /sommertogter/
-      weight: 2
     - identifier: Arbejdshold
       name: Arbejdshold
-      url: /Arbejdshold/
+      url: /posts/Arbejdshold/
       weight: 5
     - identifier: nyheder
       name: Nyheder
-      url: /nyheder/
+      url: /posts/nyheder/
       weight: 10
     - identifier: skibet
-      name: Skibet
-      url: /skibet/
+      name: Om Skibet
+      url: /posts/skibet/
       weight: 20
     - identifier: indmeldelse
       name: Indmeldelse
-      url: /indmeldelse/
-      weight: 50
-    - identifier: sponsorater
-      name: Sponsorater
-      url: /sponsorater/
+      url: /posts/indmeldelse/
       weight: 50
 
 markup:

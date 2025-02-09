@@ -4,6 +4,7 @@ draft: false
 title: "Sommertogter"
 cover:
   image: "img/kristiansand2023.jpg"
+weight: 10
 ---
 
 ## Betty sommertogter 2025
