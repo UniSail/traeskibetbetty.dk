@@ -3,6 +3,7 @@ date: "2025-03-05"
 draft: false
 title: "Batterier på Betty"
 ---
+
 ## Sikkerhed om batterier
 
 - Vores forbrugsbatterier og alle 3 starterbatterier er "syrebatterier" men de er lukkede og man skal **aldrig tilføje vand til dem**. (VIGTIGT)

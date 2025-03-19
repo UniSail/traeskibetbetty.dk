@@ -1,29 +1,29 @@
 ---
-date: "2024-11-20"
+date: 2024-11-20
 draft: false
-title: "Elektronik møde 20/11/2025"
+title: Elmøde 2024 November
 ---
 
 - Diskutere el net
   - Hvor/hvor mange afbrydere skal der være
   - Man kunne sige "Når der laves en gruppe skal denne gruppe kunne slukkes"
 - Hvor køber vi udstyr?
-  - [ ] Giv Morten Rise en pris på el-systemet - Jeppe Givskud
+  - [x] Giv Morten Rise en pris på el-systemet - Jeppe Givskud ✅ 2025-03-19
     - Vi har et forslag på pris på
-      - [ ] Regn pris
+      - [x] Regn pris ✅ 2025-03-19
       - Der er 3 modeller
         - Nødvendig
         - Medium
         - Perfekt
   - Måske fra hvor det er billigst
   - Måske fra bådbutikken?
-    - [ ] Kan de komme med et godt tilbud? - Jeppe og Knud onsdag d. 27
+    - [x] Kan de komme med et godt tilbud? - Jeppe og Knud onsdag d. 27 ✅ 2025-03-19
 - Hvor mange ampere skal vores system understøtte (60% Max?)
   - Der er rigtig meget i banjen som ikke er skrevet ind i eldiagrammet
   - Der mangler data på ca 50% af dem
-  - [ ] En kan finde datablade online
-  - [ ] En kan finde dimser på båden
-  - [ ] Definer samtidighedsfaktor - Venter på excel ark
+  - [x] En kan finde datablade online ✅ 2025-03-19
+  - [x] En kan finde dimser på båden ✅ 2025-03-19
+  - [x] Definer samtidighedsfaktor - Venter på excel ark ✅ 2025-03-19
     - Nødsituation
     - Almindelig drift
       - I Havn
@@ -38,21 +38,24 @@ title: "Elektronik møde 20/11/2025"
   - Vi kan tage en rulle snor
     - Malertape
     - Pap med sikringer og sådan noget
-      - [ ] Nogen hapser en masse pap til Januar weekenden - Knud
+      - [x] Nogen hapser en masse pap til Januar weekenden - Knud ✅ 2025-03-19
   - Man kan derefter tage en gruppe (12V)
-- [ ] VHF'en er åbenbart dårlig
-- [ ] Find ud af hvad elcentral er?
+- [x] VHF'en er åbenbart dårlig ✅ 2025-03-19
+- [x] Find ud af hvad elcentral er? ✅ 2025-03-19
 - [ ] Hvad spytter lysmaskinen ud?
-- [ ] Hvad sker der med et batteri når det går i stykker?
+- [x] Hvad sker der med et batteri når det går i stykker? ✅ 2025-03-19
+	- Det mister spænding hurtigt
+	- Det kan overophede og udlede nogle trælse gasser og/eller trykket kan blive så stort det popper
 - [ ] Hvad betyder at have fælles jord - er det en god ide på et skib - skal det være anoderne der er jord?
-- [ ] Hvilke grupper skal trækkes væk fra de 4 tavler (12x2 og 24x2)
+- [x] Hvilke grupper skal trækkes væk fra de 4 tavler (12x2 og 24x2) ✅ 2025-03-19
   - Er det rigtigt det der står i Figma?
 
 ### Weekend 1
 
 - Lav mock up med snore og pap
 - Byg hylder til batterierne
-- [ ] Find ud af om lysmaskinen skal bruge 12 V og hvad den omformer laver og hvad batteriet har af spænding
+- [x] Find ud af om lysmaskinen skal bruge 12 V og hvad den omformer laver og hvad batteriet har af spænding ✅ 2025-03-19
+	- Den var sat forkert op hæhæ
 
 ### Weekend 2
 
@@ -61,7 +64,8 @@ title: "Elektronik møde 20/11/2025"
 - Få elnettet til at virke som det er nu (Træk et kabel til)
 - Installer Skillerelæer og batteri monitor
 
+Denne plan viste sig ikke at virke
 ### Weekend 3
+Alting er stadig svært
 
-- Forbrugsbatteri tavle
--
+
