@@ -3,6 +3,8 @@ title: Design fil
 ShowToc: true
 date: 2025-03-19
 draft: false
+weight: 10
+
 ---
 
 Her kan man se alle de design forslag vi har lavet igennem tiden

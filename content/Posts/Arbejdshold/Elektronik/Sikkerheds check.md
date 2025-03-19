@@ -3,6 +3,7 @@ title: Sikkerheds check
 ShowToc: true
 date: 2025-03-19
 draft: false
+weight: 10
 ---
 
 Her kan man se alle de el ting som skal tjekkes efter engang imellem
