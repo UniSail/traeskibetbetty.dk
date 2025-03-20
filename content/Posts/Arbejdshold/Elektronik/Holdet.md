@@ -2,7 +2,7 @@
 date: 2025-03-19
 draft: false
 title: Elholdet
-weight: 10
+weight: 49
 ---
 
 Elholdet er PT (oktober 2024):
