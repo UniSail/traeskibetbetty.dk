@@ -2,7 +2,7 @@
 date: 2025-03-19
 draft: false
 title: Elmøde 2025 Marts
-weight: 1
+weight: 41
 ---
 ## Sikkerhed om batterier
 
