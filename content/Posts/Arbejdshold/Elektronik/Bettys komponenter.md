@@ -2,7 +2,7 @@
 date: 2025-03-19
 draft: false
 title: Bettys komponenter
-weight: 2
+weight: 42
 ---
 Her kan man se alle bettys komponenter og den viden vi PT har på dem
 
