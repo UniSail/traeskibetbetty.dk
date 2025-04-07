@@ -25,7 +25,7 @@ Jamen vi har 420 Ah i vores forbrugssystem (den mængde kalder man C). Det er ge
 
 0.1C i vores system svarer til 0.1*420Ah = 42A
 
-0.1C i vores system svarer til 0.2*420Ah = 84A
+0.2C i vores system svarer til 0.2*420Ah = 84A
 
 2000W = 24V*A <=> 2000W/24V =83.33 A altså præcis en smule under den maksimale grænse på 84A
 
