@@ -36,7 +36,7 @@ Skipper: Morten Rise
 
 ### Togt 1
 
-Brunsbüttel 4. juli - Dunkirk - Aberdeen 21. juli
+Ved kielerkanalen 3. juli - Dunkirk - Aberdeen 21. juli
 
 Dette togt er et Tall Ship Race togt. Togtet starter ved Kielerkanalen, hvor den første del af togtet sættes kursen mod Dunkirk, som er værtshavn for Tall Ship Race. På sejladsen vil der gøres ophold i havne i Tyskland, Holland og Belgien. I Dunkirk vil der være en regatta med festligheder og aktiviteter planlagt af Tall Ship Races. Derefter sættes kursen for den første flere dags kapsejlads mod Aberdeen i Skotland, hvor vi sejler i vagtrul med natsejlads. I Aberdeen vil der igen være en regatta med festligheder og aktiviteter for besætningen.
 
