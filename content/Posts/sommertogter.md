@@ -30,7 +30,13 @@ Tall Ship Races har til formål at få unge, studerende og sejlskibs interessere
 
 ### Togt 0
 
-Aalborg 5. juni - Pinsestævne Næstved - Brunsbüttel 15. juni
+Aalborg 9. juni - Pinsestævne Næstved - Sønderborg 15. juni
+
+Dette togt er ikke et Tall ship races togt. 
+
+Betty sejler ud fra Aalborg med kurs mod træskibsfestival i Næstved og så videre derfra syd om Fyn til Sønderborg. 
+
+Turen fra Fyn til Sønderborg kan klares på 19 timer, hvis man giver den gas, så hele sejladsen bliver et lækkert hyggesejlads! 
 
 Skipper: Morten Rise
 
