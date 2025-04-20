@@ -11,6 +11,7 @@ params:
   ShowPostNavLinks: true
   ShowBreadCrumbs: true
   ShowRssButtonInSectionTermList: true
+  ShowFullTextinRSS: true
   assets:
     disableHLJS: true
     favicon: "/img/favicon.ico"
