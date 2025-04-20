@@ -2,8 +2,8 @@
 date: 2025-03-19
 draft: false
 title: Elmøde 2025 Marts
-weight: 41
 ---
+<!-- weight: 41 -->
 ## Sikkerhed om batterier
 
 - [x] Spørg morten om nødstart knaps Lokation ✅ 2025-03-17

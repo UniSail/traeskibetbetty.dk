@@ -2,8 +2,8 @@
 date: 2025-03-19
 draft: false
 title: Elektronik opgaver 24/25
-weight: 43
 ---
+<!-- weight: 43-->
 
 Her kan man se alle elektronik opgaverne og deres status
 

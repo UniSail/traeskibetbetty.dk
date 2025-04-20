@@ -1,7 +1,7 @@
 ---
 date: 2025-02-05
 draft: false
-title: Årsmøde 2025
+title: "Årsmøde 2025"
 ShowToc: true
 TocOpen: true
 cover:

@@ -3,8 +3,8 @@ date: "2024-10-27"
 draft: false
 title: "Indmeldelse i UniSail"
 identifier: "Indmeldelse"
-weight: 20
 ---
+<!-- weight: 20 -->
 
 Du melder dig ind ved at udfylde blanketten via linket her på siden. Når din tilmelding er registreret, sker betalingen af kontingentet nemt og hurtigt gennem MinForening-appen.
 
