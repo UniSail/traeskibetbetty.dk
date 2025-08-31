@@ -66,7 +66,7 @@ TocOpen: true
   - Der er en fodpumpe til vand
   - Gasflaske stor på dækket (mastehullet)
 
-Tanken med båden er at have en ekstra båd til foreningen som kan bruges til nogle mindre sejlladser og når Tall Ships er igang. Så dem der ikke sejler tall ships har noget at mødes om og hvor man ikke behøver at samle 12 mennesker for at sejle. Det gælder også i onsdagssejladserne. Hvis der er alt for få kan vi tage lodsen. Hvis der er alt for mange kan vi tage lodsen og betty. Det kan også være en god måde at lære at styre et skib. Lægge til osv. Det er generelt for alle læremuligheder. Lodsen er nemmere og giver feedback med det samme hvis man laver en fejl. Det kunne være kalfatringslæring som på betty kan være svært at se om det er gjort rigtigt og sådan
+Tanken med båden er at have en ekstra båd til foreningen som kan bruges til nogle mindre sejladser og når Tall Ships er i gang. Så dem der ikke sejler tall ships har noget at mødes om og hvor man ikke behøver at samle 12 mennesker for at sejle. Det gælder også i onsdagssejladserne. Hvis der er alt for få kan vi tage lodsen. Hvis der er alt for mange kan vi tage lodsen og betty. Det kan også være en god måde at lære at styre et skib. Lægge til osv. Det er generelt for alle læremuligheder. Lodsen er nemmere og giver feedback med det samme hvis man laver en fejl. Det kunne være kalfatringslæring som på betty kan være svært at se om det er gjort rigtigt og sådan
 
 ### Lodsen - Opgaver
 
@@ -84,7 +84,7 @@ Tanken med båden er at have en ekstra båd til foreningen som kan bruges til no
   - Kristi himmelfart ville passe godt til det (29'ende maj)
   - Der er madrasser så man kan overnatte
 - Lodsen vejer ikke forfærdeligt meget - To stærke folk bør kunne løfte den
-- Der følger en lille jolle med til Lodsen af mahony 
+- Der følger en lille jolle med til Lodsen af mahogni
   - Lærredet skal skiftes
 
 Når lodsen er hjemme:
@@ -116,4 +116,4 @@ Fondsøgning er alfa omega for foreningen og vi bliver nødt til at starte det o
 
 - Næste fondsmøde er 14. Maj
 
-Træneraftenen var enormt spændende og gav nogle sindsygt gode pejlninger til hvilken slags ansøgninger man bør lave så kom glad!
+Træneraftenen var enormt spændende og gav nogle sindsygt gode pejlinger til hvilken slags ansøgninger man bør lave så kom glad!
