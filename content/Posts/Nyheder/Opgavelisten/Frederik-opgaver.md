@@ -1,51 +1,17 @@
 ---
 draft: false
-title: "Opgaveliste for Frederik - September 2025"
+title: "Opgaveliste for Frederik - 2025 09"
 ShowToc: true
 TocOpen: true
 hidden: false
-tags: ["opgaver", "frederik", "bestyrelsesmøde"]
+tags: ["opgaver", "frederik", "bestyrelsesmøde", "2025 09"]
 ---
 
 # 📋 Opgaveliste for Frederik
 
-*Genereret fra bestyrelsesmøder*
+*Genereret fra 2025 09*
 
-## 🎯 Aktuelle opgaver (18 stk.)
-
-### Lommelygter
-
-- [ ] **De skal undersøges - Frederik**
-
-- [ ] **De skal undersøges - Frederik**
-
-- [ ] **De skal undersøges - Frederik**
-
-### Niveaumåler til lokumstank
-
-- [ ] **Sortvandspumpe skal tjekkes - Frederik forklarer Jens hvor den sidder**
-
-### Plan for nedring
-
-- [ ] **Frederik laver en besked**
-
-### Bedding
-
-- [ ] **Morten Rise spørger Jens Bådbygger om det er muligt med Frederikshavn**
-
-- [ ] **Amanda melder sig ind i Frederikshavn når vi har fået svar fra Jens Bådbygger**
-
-### Valget om at købe
-
-- [ ] **Vi udsender en indkaldelse hurtigst muligt - Frederik "Betty lodsen møde med hele foreningen - Morten køber sandwiches fra Techcollege"**
-
-### Tilskud til liggeplads
-
-- [ ] **Vi skal ha revideret vores budget - Morten og Frederik**
-
-### Træ
-
-- [ ] **Indkald arbejdsholdene til næste bestyrelsemøde - Frederik**
+## 🎯 Aktuelle opgaver (8 stk.)
 
 ### Bestyrelse
 
@@ -73,29 +39,9 @@ tags: ["opgaver", "frederik", "bestyrelsesmøde"]
 
 - [ ] **Der skal bruges tid på at lægge en plan og afsøge muligheder - Frederik kommer med en plan til næste møde. Enten skal mesanmasten flyttes tilbage eller de der reb frem.**
 
-## ✅ Gennemførte opgaver (5 stk.)
+## ✅ Gennemførte opgaver
 
-*Godt arbejde! Her er de opgaver du allerede har løst:*
-
-### Bedding status
-
-- [x] ~~Tjekker ekkoloddet efter fejl - Jeppe og Jakob **eller** Frederik næste weekend ✅ 2024-06-04~~ ✨
-
-### Nedrigning
-
-- [x] ~~Frederik (Morten Rise) laver en liste over hvad der skal hjem til Bo ✅ 2024-10-07~~ ✨
-
-### Årsmøde
-
-- [x] ~~Jens og Frederik laver et kort over togtplanen~~ ✨
-
-### Næste møde
-
-- [x] ~~Frederik skriver en mail til Hans Ebert~~ ✨
-
-### Sommertogt
-
-- [x] ~~Frederik laver en legend på togtplanen ✅ 2025-02-03~~ ✨
+*Ingen registrerede gennemførte opgaver endnu.*
 
 ---
 
