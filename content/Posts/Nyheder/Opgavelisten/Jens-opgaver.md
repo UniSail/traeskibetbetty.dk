@@ -1,5 +1,4 @@
 ---
-date: 2025-09-07
 draft: false
 title: "Opgaveliste for Jens - September 2025"
 ShowToc: true

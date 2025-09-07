@@ -98,7 +98,6 @@ def generate_person_markdown(person, person_data):
     
     # Generate front matter
     output = f"""---
-date: {current_date}
 draft: false
 title: "Opgaveliste for {person} - September 2025"
 ShowToc: true
