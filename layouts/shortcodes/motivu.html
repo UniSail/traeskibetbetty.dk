@@ -1,0 +1,24 @@
+<div id='motivu' style="width: 100%; min-height: 400px;"></div>
+<script>
+// Wait for DOM to be ready
+document.addEventListener('DOMContentLoaded', function() {
+  (function (m,o,t,i,v,u,dk) {
+    m['motivu-widget']=i;
+    m[i] = m[i] || function () { 
+      (m[i].q = m[i].q || []).push(arguments) 
+    };
+    u = o.createElement(t), dk = o.getElementsByTagName(t)[0];
+    u.id = i; 
+    u.src = v; 
+    u.async = 1; 
+    dk.parentNode.insertBefore(u, dk);
+  }(window, document, 'script', 'mw', 'https://assets.motivu.dk/js/widget.js')); 
+
+  // Initialize after a small delay to ensure the script loads
+  setTimeout(function() {
+    if (typeof mw !== 'undefined') {
+      mw('init', 'MW-QENnOSsd');
+    }
+  }, 100);
+});
+</script>
