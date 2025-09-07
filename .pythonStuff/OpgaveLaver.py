@@ -11,7 +11,8 @@ def extract_tasks_from_markdown(file_path):
     person_tasks = defaultdict(lambda: {'pending': [], 'completed': []})
     
     # People we're looking for
-    target_people = ['Morten', 'Jens', 'Jeppe', 'Frederik', 'Malene', 'Magnus', 'Jakob', 'Hans', 'Amanda', 'Tommy', 'Mads', 'Kat', 'Bo', 'Ida']    
+    target_people = ['Morten', 'Jens', 'Jeppe', 'Frederik', 'Malene', 'Magnus', 'Jakob', 'Hans', 'Amanda', 'Tommy', 'Mads', 'Kat', 'Bo', 'Ida']
+    
     try:
         with open(file_path, 'r', encoding='utf-8') as file:
             content = file.read()
@@ -34,8 +35,10 @@ def extract_tasks_from_markdown(file_path):
                     task_text = task_match.group(2).strip()
                     
                     # Look for person names in the current line
+                    found_person = False
                     for person in target_people:
                         if person in line:
+                            found_person = True
                             task_data = {
                                 'task': task_text,
                                 'section': current_section,
@@ -57,6 +60,7 @@ def extract_tasks_from_markdown(file_path):
                             
                             for person in target_people:
                                 if person in next_line:
+                                    found_person = True
                                     task_data = {
                                         'task': task_text,
                                         'section': current_section,
@@ -69,6 +73,10 @@ def extract_tasks_from_markdown(file_path):
                                         person_tasks[person]['completed'].append(task_data)
                                     else:
                                         person_tasks[person]['pending'].append(task_data)
+                    
+                    # Check for unassigned tasks
+                    if not found_person:
+                        print(f"⚠️  Unassigned task found: {task_text.strip()}")
     
     except FileNotFoundError:
         print(f"File not found: {file_path}")
@@ -101,7 +109,7 @@ tags: ["opgaver", "{person.lower()}", "bestyrelsesmøde"]
 
 # 📋 Opgaveliste for {person}
 
-*Genereret fra bestyrelsesmøde d. 3. September 2025*
+*Genereret fra bestyrelsesmøder*
 
 """
 
@@ -156,7 +164,7 @@ tags: ["opgaver", "{person.lower()}", "bestyrelsesmøde"]
 
 💡 **Har du spørgsmål til opgaverne?** Skriv endelig til bestyrelsen!
 
-� **Fandt du en fejl?** Kontakt Jeppe så listen kan blive opdateret.
+📧 **Fandt du en fejl?** Kontakt Jeppe så listen kan blive opdateret.
 
 *Sidst opdateret: {current_date}*
 """
@@ -189,48 +197,59 @@ def main():
         for person, tasks in file_tasks.items():
             person_tasks[person]['pending'].extend(tasks['pending'])
             person_tasks[person]['completed'].extend(tasks['completed'])
+    
+    # Generate individual task lists (MOVED OUTSIDE THE LOOP)
+    target_people = ['Morten', 'Jens', 'Jeppe', 'Frederik']
+    #extra_potential_people = ['Malene', 'Magnus', 'Jakob', 'Amanda', 'Tommy', 'Mads', 'Kat', 'Ida']
+    
+    for person in target_people:
+        person_data = person_tasks.get(person, {'pending': [], 'completed': []})
+        markdown_content = generate_person_markdown(person, person_data)
         
-        # Generate individual task lists
-        target_people = ['Morten', 'Jens', 'Jeppe', 'Frederik', 'Malene']
+        # Save to markdown files
+        output_file = os.path.join(output_dir, f"{person}-opgaver.md")
+        try:
+            with open(output_file, 'w', encoding='utf-8') as file:
+                file.write(markdown_content)
+            print(f"✅ Opgaveliste for {person} gemt som {output_file}")
+        except Exception as e:
+            print(f"❌ Fejl ved gemning af fil for {person}: {e}")
         
-        for person in target_people:
-            person_data = person_tasks.get(person, {'pending': [], 'completed': []})
-            markdown_content = generate_person_markdown(person, person_data)
-            
-            # Save to markdown files
-            output_file = os.path.join(output_dir, f"{person}-opgaver.md")
-            try:
-                with open(output_file, 'w', encoding='utf-8') as file:
-                    file.write(markdown_content)
-                print(f"✅ Opgaveliste for {person} gemt som {output_file}")
-            except Exception as e:
-                print(f"❌ Fejl ved gemning af fil for {person}: {e}")
-            
-            # Print summary to console
-            pending_count = len(person_data['pending'])
-            completed_count = len(person_data['completed'])
-            print(f"📊 {person}: {pending_count} aktive opgaver, {completed_count} gennemførte")
-            
-            if completed_count > 0:
-                print(f"   🎉 Tillykke med de gennemførte opgaver!")
+        # Print summary to console
+        pending_count = len(person_data['pending'])
+        completed_count = len(person_data['completed'])
+        print(f"📊 {person}: {pending_count} aktive opgaver, {completed_count} gennemførte")
         
-        # Print overall summary
-        print(f"\n� **Samlet oversigt:**")
-        total_pending = 0
-        total_completed = 0
+        if completed_count > 0:
+            print(f"   🎉 Tillykke med de gennemførte opgaver!")
+    
+    # Print overall summary (MOVED OUTSIDE THE LOOP)
+    print(f"\n📈 **Samlet oversigt:**")
+    total_pending = 0
+    total_completed = 0
+    
+    for person in target_people:
+        person_data = person_tasks.get(person, {'pending': [], 'completed': []})
+        pending = len(person_data['pending'])
+        completed = len(person_data['completed'])
+        total_pending += pending
+        total_completed += completed
         
-        for person in target_people:
-            person_data = person_tasks.get(person, {'pending': [], 'completed': []})
-            pending = len(person_data['pending'])
-            completed = len(person_data['completed'])
-            total_pending += pending
-            total_completed += completed
-            
-            status = "🎯" if pending > 0 else "✨"
-            print(f"{status} {person}: {pending} aktive, {completed} gennemførte")
-        
-        print(f"\n🚀 Total: {total_pending} aktive opgaver, {total_completed} gennemførte opgaver")
-        print(f"📁 Markdown filer gemt i: {output_dir}")
+        status = "🎯" if pending > 0 else "✨"
+        print(f"{status} {person}: {pending} aktive, {completed} gennemførte")
+    
+    print(f"\n🚀 Total: {total_pending} aktive opgaver, {total_completed} gennemførte opgaver")
+    print(f"📁 Markdown filer gemt i: {output_dir}")
+    
+    # Task Detection Summary
+    print(f"\n🔍 **Task Detection Summary:**")
+    print(f"Files processed: {len(markdown_files)}")
+    for person in target_people:
+        person_data = person_tasks.get(person, {'pending': [], 'completed': []})
+        if person_data['pending'] or person_data['completed']:
+            print(f"✅ {person}: Found tasks")
+        else:
+            print(f"⭕ {person}: No tasks found")
 
 if __name__ == "__main__":
     main()
