@@ -24,3 +24,5 @@ Jem og Fix har været så gavmilde at sponsorere et gavekort på 5000 kr til der
 ### Cobham Satcom
 
 Cobham Satcom har sponsoreret en reparation af vores bærbare VHF nødradio "SAILOR SP3520" og har i samme omgang doneret en helt ny "SAILOR SP3520" til skibet. Dermed har vi to nødradioer så den ene kan være lokaliseret bagerst i skibet og den anden i soveområdet.
+
+Til april tilføjede de endnu et sponsorat til skibet. Deres super seje satellit terminal som vi skulle have for at kunne sejle med i tall ship races. Mange tak til Cobham Satcom og vi håber at kunne teste jeres fremtidige produkter!
