@@ -14,8 +14,20 @@ Et gammel træskib som Betty går i stykker fra tid til anden, så derfor har vi
 
 Vi er pr dags dato sponsoreret af
 
+- Norlys
 - Jem og Fix
 - Cobham Satcom
+
+### Norlys
+
+Vi er utrolig glade og stolte over, at Norlys er vores største sponsor med en generøs donation på 100.000 kr. 🙌
+Sådan en støtte betyder alt for en forening som vores, og vi er dybt taknemmelige.
+
+Bidraget går direkte til at styrke fællesskabet og til alt det vigtige arbejde i vinterhalvåret: skibsbyggeri, maling, pensler og alt det udstyr, der skal til for at holde Betty i topform til sommerens togter – og samtidig skabe hygge og samvær, når vi mødes om vinteren til vedligeholdelse 🌊⚓
+
+Næste gang du kører over Limfjordsbroen og kigger ned på Betty, kan du sende en tanke til Norlys – for uden deres støtte ville hun ikke stråle helt så flot.
+
+Tusind tak til Norlys for den fantastiske støtte!
 
 ### Jem og fix
 
