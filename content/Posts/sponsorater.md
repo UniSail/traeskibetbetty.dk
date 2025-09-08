@@ -23,11 +23,13 @@ Vi er pr dags dato sponsoreret af
 Vi er utrolig glade og stolte over, at Norlys er vores største sponsor med en generøs donation på 100.000 kr. 🙌
 Sådan en støtte betyder alt for en forening som vores, og vi er dybt taknemmelige.
 
-Bidraget går direkte til at styrke fællesskabet og til alt det vigtige arbejde i vinterhalvåret: skibsbyggeri, maling, pensler og alt det udstyr, der skal til for at holde Betty i topform til sommerens togter – og samtidig skabe hygge og samvær, når vi mødes om vinteren til vedligeholdelse 🌊⚓
+Bidraget går 100% til værftet, hvor dygtige folk sørger for at holde Betty i topform. Det kræver mange ressourcer at holde et skib som vores sejlklart – og uden værftet kunne Betty ganske enkelt ikke flyde.
 
-Næste gang du kører over Limfjordsbroen og kigger ned på Betty, kan du sende en tanke til Norlys – for uden deres støtte ville hun ikke stråle helt så flot.
+Støtten giver os mulighed for at sejle trygt om sommeren og skabe fællesskab og hygge, når vi mødes om vinteren til vedligeholdelse 🌊⚓
 
-Tusind tak til Norlys for den fantastiske støtte!
+Næste gang du kører over Limfjordsbroen og ser Betty, kan du sende en varm tanke til Norlys – for uden deres hjælp ville hun ikke stråle helt så flot.
+
+Tusind tak til Norlys for den fantastiske støtte! ❤️
 
 ### Jem og fix
 
