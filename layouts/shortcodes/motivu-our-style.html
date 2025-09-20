@@ -1,0 +1,174 @@
+<div id="motivu" style="width: 0px; height: -10px; opacity: 0"></div>
+<!-- Default container for the Motivu widget -->
+<div id="custom-motivu-widget" class="calendar-widget">
+  <h3 class="calendar-title">📅 Aalborg Tryouts - Prøv at være med gratis</h3>
+  <div id="custom-motivu-events" class="calendar-events">
+    <p class="calendar-loading">Indlæser aktiviteter...</p>
+  </div>
+</div>
+
+<script>
+  // Load the Motivu widget script dynamically
+  (function (m, o, t, i, v, u, dk) {
+    m["motivu-widget"] = i;
+    m[i] =
+      m[i] ||
+      function () {
+        (m[i].q = m[i].q || []).push(arguments);
+      };
+    u = o.createElement(t);
+    dk = o.getElementsByTagName(t)[0];
+    u.id = i;
+    u.src = v;
+    u.async = 1;
+    dk.parentNode.insertBefore(u, dk);
+  })(window, document, "script", "mw", "https://assets.motivu.dk/js/widget.js");
+
+  mw("init", "MW-bESczr9D");
+
+  // Wait for the Motivu widget to populate data
+  document.addEventListener("DOMContentLoaded", () => {
+    const checkMotivuData = setInterval(() => {
+      if (motivuWidget.tryouts && motivuWidget.tryouts.length > 0) {
+        console.log("Tryouts data detected:", motivuWidget.tryouts);
+        clearInterval(checkMotivuData); // Stop checking once data is available
+        renderCustomWidget(motivuWidget.tryouts); // Render your custom widget
+        hideOriginalWidget(); // Hide the original Motivu widget
+      } else {
+        console.log("Waiting for tryouts data...");
+      }
+    }, 500); // Check every 500ms
+  });
+
+  function renderCustomWidget(tryouts) {
+    console.log("Tryouts passed to renderCustomWidget:", tryouts);
+    console.log("Type of tryouts:", typeof tryouts);
+    console.log("Is tryouts an array?", Array.isArray(tryouts));
+
+    // If tryouts is a string, parse it into an object
+    if (typeof tryouts === "string") {
+      try {
+        tryouts = JSON.parse(tryouts);
+        console.log("Parsed tryouts:", tryouts);
+      } catch (error) {
+        console.error("Failed to parse tryouts JSON:", error);
+        return;
+      }
+    }
+
+    // Ensure tryouts is an array
+    if (!Array.isArray(tryouts)) {
+      console.error("Expected tryouts to be an array, but got:", tryouts);
+      return;
+    }
+
+    const container = document.getElementById("custom-motivu-events");
+
+    if (tryouts.length === 0) {
+      container.innerHTML =
+        '<p class="calendar-empty">📭 Ingen kommende aktiviteter findes i øjeblikket</p>';
+    } else {
+      const eventsHtml = tryouts
+        .map((tryout) => {
+          return `
+          <div class="calendar-event">
+            <div class="calendar-event-title">${tryout.title}</div>
+            <div class="calendar-event-meta">
+              📅 ${new Date(tryout.date_time).toLocaleString("da-DK")}<br>
+              🏠 Mødested: ${tryout.meeting_point}
+            </div>
+            <div class="calendar-event-description">
+              ${tryout.other_info || "Ingen yderligere information"}
+            </div>
+            <a href="${
+              tryout.link || "https://motivu.dk/klubber/20373/uni-sail"
+            }" target="_blank" class="calendar-event-button">Tilmeld på motivu.dk</a>
+          </div>
+        `;
+        })
+        .join("");
+
+      container.innerHTML = eventsHtml;
+    }
+  }
+
+  // Function to hide the original Motivu widget
+  function hideOriginalWidget() {
+    console.log("hiding motivu");
+    const motivuDiv = document.getElementById("motivu");
+    if (motivuDiv) {
+      motivuDiv.style.display = "none"; // Hide the original widget
+    }
+  }
+</script>
+
+<style>
+  /* Add any custom styles for your widget here */
+  .calendar-widget {
+    border: 1px solid var(--border-color, #ddd);
+    padding: 20px;
+    border-radius: 8px;
+    background: var(--bg-color, #fff);
+    color: var(--text-color, #333);
+    margin: 1rem 0;
+  }
+
+  .calendar-title {
+    color: var(--heading-color, #333);
+    margin-top: 0;
+    margin-bottom: 1rem;
+  }
+
+  .calendar-loading {
+    color: var(--muted-color, #666);
+    font-style: italic;
+  }
+
+  .calendar-event {
+    margin-bottom: 15px;
+    padding: 15px;
+    background: var(--card-bg, #f9f9f9);
+    border-radius: 8px;
+    border-left: 4px solid var(--accent-color, #4caf50);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+
+  .calendar-event-title {
+    font-weight: bold;
+    color: var(--accent-color, #4caf50);
+    font-size: 1.1em;
+    margin-bottom: 8px;
+  }
+
+  .calendar-event-meta {
+    font-size: 0.9em;
+    color: var(--muted-color, #666);
+    margin-bottom: 8px;
+  }
+
+  .calendar-event-description {
+    font-size: 0.9em;
+    color: var(--text-color, #333);
+    line-height: 1.4;
+  }
+
+  .calendar-event-button {
+    display: inline-block;
+    padding: 10px 15px;
+    background: var(--accent-color, #4caf50);
+    color: #fff;
+    text-decoration: none;
+    border-radius: 4px;
+    font-size: 0.9em;
+    text-align: center;
+    transition: background 0.3s ease;
+  }
+
+  .calendar-event-button:hover {
+    background: var(--accent-hover-color, #45a049);
+  }
+
+  .calendar-empty {
+    color: var(--muted-color, #666);
+  }
+</style>
