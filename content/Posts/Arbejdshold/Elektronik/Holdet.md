@@ -7,7 +7,6 @@ title: Elholdet
 
 Elholdet er PT (oktober 2024):
 
-- Amalie Bjørk
 - Andreas Funch Petersen
 - Jakob Mortensen
 - Jeppe Firring Givskud
