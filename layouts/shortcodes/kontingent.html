@@ -1,0 +1,351 @@
+<div class="kontingent-container">
+  <div class="kontingent-header">
+    <h3>💰 Kontingent 2025</h3>
+  </div>
+
+  <div class="kontingent-content">
+    <p class="kontingent-description">
+      Et medlemskab hos UniSail koster <strong>400 kr.</strong> for et helt
+      kalenderår. Et medlemskab giver dig:
+    </p>
+
+    <ul class="kontingent-benefits">
+      <li>🤝 Fællesskab i et helt år</li>
+      <li>⛵ Adgang til sommertogter</li>
+      <li>🏃‍♂️ Fri tilmeldelse til onsdagssejladser</li>
+      <li>🔨 Fri deltagelse i vinterarbejdet</li>
+      <li>🎄 Adgang til julefrokost og andre arrangementer</li>
+    </ul>
+
+    <div class="kontingent-pricing">
+      <h4>Priser efter måned:</h4>
+      <div class="pricing-list">
+        <div class="price-item">
+          <span class="period">Januar - August:</span>
+          <span class="price">400 kr.</span>
+        </div>
+        <div class="price-item">
+          <span class="period">September - Oktober:</span>
+          <span class="price">250 kr.</span>
+        </div>
+        <div class="price-item">
+          <span class="period">November - December:</span>
+          <span class="price">150 kr.</span>
+        </div>
+      </div>
+    </div>
+
+    <a
+      href="https://docs.google.com/forms/d/e/1FAIpQLSdyT0wP4VgZDm7jutsMoUuHmtcx8qzqthi9CyBmNgeC8dRKEA/viewform?fbclid=PAZXh0bgNhZW0CMTEAAaaDeYSj6o3rWcpBiEuD3ILtzR_AlyMd3Xqz3RLQQLI9Kft6iAChYFu1dp4_aem_nheotNanQc5aQdTqs4948w"
+      target="_blank"
+      rel="noopener noreferrer"
+      class="questionnaire-link"
+    >
+      <div class="questionnaire-button">
+        📝 <strong>Udfyld indmeldelsesblanketten</strong><br />
+        <small>Obligatorisk før indmeldelse</small>
+      </div>
+    </a>
+    <a
+      href="https://web.minforening.dk/invitation?clubToken=7cFDutp14PSiFFDtY9Q_c6_ZnAfDNT_pk39IFFSkheFqSEyyFqFuYXlvRfx6CqTaG7d38wo0YgYC08p1YMvuZA=="
+      target="_blank"
+      rel="noopener noreferrer"
+      class="kontingent-link"
+    >
+      <div id="kontingent-resultat" class="kontingent-result"></div>
+    </a>
+  </div>
+</div>
+
+<style>
+  /* Light mode styles */
+  .kontingent-container {
+    font-family: system-ui, -apple-system, sans-serif;
+    /* max-width: 400px; */
+    margin: 1.5rem auto;
+    background: #ffffff;
+    border: 1px solid #e1e5e9;
+    border-radius: 12px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+  }
+
+  .kontingent-header {
+    background: linear-gradient(135deg, #4caf50, #45a049);
+    color: white;
+    padding: 1.5rem;
+    text-align: center;
+  }
+
+  .kontingent-header h3 {
+    margin: 0;
+    font-size: 1.5rem;
+    font-weight: 600;
+  }
+
+  .kontingent-content {
+    padding: 1.5rem;
+  }
+
+  .kontingent-description {
+    color: #333333;
+    line-height: 1.6;
+    margin-bottom: 1rem;
+  }
+
+  .kontingent-benefits {
+    list-style: none;
+    padding: 0;
+    margin: 1rem 0;
+    background: #f8f9fa;
+    border-radius: 8px;
+    padding: 1rem;
+  }
+
+  .kontingent-benefits li {
+    padding: 0.5rem 0;
+    color: #333333;
+    border-bottom: 1px solid #e1e5e9;
+  }
+
+  .kontingent-benefits li:last-child {
+    border-bottom: none;
+  }
+
+  .kontingent-pricing {
+    margin: 1.5rem 0;
+  }
+
+  .kontingent-pricing h4 {
+    color: #333333;
+    margin-bottom: 1rem;
+    font-size: 1.1rem;
+  }
+
+  .pricing-list {
+    background: #f8f9fa;
+    border-radius: 8px;
+    overflow: hidden;
+  }
+
+  .price-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.75rem 1rem;
+    border-bottom: 1px solid #e1e5e9;
+  }
+
+  .price-item:last-child {
+    border-bottom: none;
+  }
+
+  .period {
+    color: #333333;
+    font-weight: 500;
+  }
+
+  .price {
+    color: #4caf50;
+    font-weight: 700;
+    font-size: 1.1rem;
+  }
+
+  .kontingent-link {
+    display: block;
+    text-decoration: none !important;
+    margin-top: 1.5rem;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+    color: inherit;
+    border: none;
+    outline: none;
+    box-shadow: none !important;
+    box-decoration-break: initial !important;
+    -webkit-box-decoration-break: initial !important;
+  }
+
+  .kontingent-link:hover,
+  .kontingent-link:focus,
+  .kontingent-link:active,
+  .kontingent-link:visited {
+    text-decoration: none !important;
+    color: inherit;
+    transform: translateY(-2px);
+    box-shadow: none !important;
+    box-decoration-break: initial !important;
+    -webkit-box-decoration-break: initial !important;
+  }
+
+  .kontingent-result {
+    background: linear-gradient(135deg, #4caf50, #45a049);
+    color: white;
+    padding: 1rem;
+    border-radius: 8px;
+    text-align: center;
+    font-weight: 600;
+    font-size: 1.1rem;
+    box-shadow: 0 2px 4px rgba(76, 175, 80, 0.3);
+    cursor: pointer;
+  }
+
+  .kontingent-link:hover .kontingent-result {
+    box-shadow: 0 4px 8px rgba(76, 175, 80, 0.4);
+  }
+
+  .questionnaire-link {
+    display: block;
+    text-decoration: none !important;
+    margin-top: 1rem;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+    color: inherit;
+    border: none;
+    outline: none;
+    box-shadow: none !important;
+    box-decoration-break: initial !important;
+    -webkit-box-decoration-break: initial !important;
+  }
+
+  .questionnaire-link:hover,
+  .questionnaire-link:focus,
+  .questionnaire-link:active,
+  .questionnaire-link:visited {
+    text-decoration: none !important;
+    color: inherit;
+    transform: translateY(-2px);
+    box-shadow: none !important;
+    box-decoration-break: initial !important;
+    -webkit-box-decoration-break: initial !important;
+  }
+
+  .questionnaire-button {
+    background: linear-gradient(135deg, #2196f3, #1976d2);
+    color: white;
+    padding: 1rem;
+    border-radius: 8px;
+    text-align: center;
+    font-weight: 600;
+    font-size: 1.1rem;
+    box-shadow: 0 2px 4px rgba(33, 150, 243, 0.3);
+    cursor: pointer;
+  }
+
+  .questionnaire-link:hover .questionnaire-button {
+    box-shadow: 0 4px 8px rgba(33, 150, 243, 0.4);
+  }
+
+  /* Dark mode styles */
+  body.dark .kontingent-container {
+    background: #1a1a1a;
+    border-color: #444444;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+  }
+
+  body.dark .kontingent-header {
+    background: linear-gradient(135deg, #66bb6a, #5cb660);
+  }
+
+  body.dark .kontingent-description {
+    color: #cccccc;
+  }
+
+  body.dark .kontingent-benefits {
+    background: #2a2a2a;
+  }
+
+  body.dark .kontingent-benefits li {
+    color: #cccccc;
+    border-bottom-color: #444444;
+  }
+
+  body.dark .kontingent-pricing h4 {
+    color: #ffffff;
+  }
+
+  body.dark .pricing-list {
+    background: #2a2a2a;
+  }
+
+  body.dark .price-item {
+    border-bottom-color: #444444;
+  }
+
+  body.dark .period {
+    color: #cccccc;
+  }
+
+  body.dark .price {
+    color: #66bb6a;
+  }
+
+  body.dark .kontingent-result {
+    background: linear-gradient(135deg, #66bb6a, #5cb660);
+    box-shadow: 0 2px 4px rgba(102, 187, 106, 0.3);
+  }
+
+  body.dark .kontingent-link:hover .kontingent-result {
+    box-shadow: 0 4px 8px rgba(102, 187, 106, 0.4);
+  }
+
+  body.dark .questionnaire-button {
+    background: linear-gradient(135deg, #42a5f5, #1e88e5);
+    box-shadow: 0 2px 4px rgba(66, 165, 245, 0.3);
+  }
+
+  body.dark .questionnaire-link:hover .questionnaire-button {
+    box-shadow: 0 4px 8px rgba(66, 165, 245, 0.4);
+  }
+
+  /* Mobile responsiveness */
+  @media (max-width: 480px) {
+    .kontingent-container {
+      max-width: none;
+    }
+
+    .kontingent-header {
+      padding: 1rem;
+    }
+
+    .kontingent-content {
+      padding: 1rem;
+    }
+
+    .price-item {
+      flex-direction: row;
+      align-items: flex-start;
+      gap: 0.25rem;
+    }
+
+    .price {
+      align-self: flex-end;
+    }
+  }
+</style>
+
+<script>
+  function beregnKontingent() {
+    const nu = new Date();
+    const måned = nu.getMonth() + 1; // Januar = 1
+    let pris;
+    let periode;
+
+    if (måned <= 8) {
+      pris = 400;
+      periode = "resten af året";
+    } else if (måned <= 10) {
+      pris = 250;
+      periode = "resten af året";
+    } else {
+      pris = 150;
+      periode = "resten af året";
+    }
+
+    const resultatElement = document.getElementById("kontingent-resultat");
+    resultatElement.innerHTML = `
+      <strong>🎯 Meld dig ind nu for ${pris} kr.</strong><br>
+      <small>Gælder for ${periode}</small>
+    `;
+  }
+
+  // Run calculation when DOM is loaded
+  document.addEventListener("DOMContentLoaded", beregnKontingent);
+</script>
