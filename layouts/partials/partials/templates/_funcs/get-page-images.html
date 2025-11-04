@@ -1,0 +1,6 @@
+{{- /* Shim to handle theme calling partial with a superfluous "partials/"
+prefix. The theme calls partial "partials/templates/_funcs/get-page-images"
+which resolves to
+layouts/partials/partials/templates/_funcs/get-page-images.html. We forward that
+call to the actual partial location so the theme doesn't need editing. */ -}}
+{{- return partial "templates/_funcs/get-page-images" . -}}
