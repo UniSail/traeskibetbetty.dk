@@ -250,12 +250,17 @@
       const month = dateStr.substring(4, 6);
       const day = dateStr.substring(6, 8);
       let time = "";
+      let timezone = "";
       if (dateStr.includes("T") && dateStr.length >= 15) {
         const hour = dateStr.substring(9, 11);
         const minute = dateStr.substring(11, 13);
         time = ` ${hour}:${minute}`;
+        // Preserve the Z suffix if present (indicates UTC time)
+        if (dateStr.endsWith("Z")) {
+          timezone = "Z";
+        }
       }
-      return new Date(`${year}-${month}-${day}${time}`);
+      return new Date(`${year}-${month}-${day}${time}${timezone}`);
     }
     return new Date(dateStr);
   }
@@ -275,10 +280,12 @@
           weekday: "short",
           day: "numeric",
           month: "short",
+          timeZone: "Europe/Copenhagen",
         });
         const time = event.dtstart.toLocaleTimeString("da-DK", {
           hour: "2-digit",
           minute: "2-digit",
+          timeZone: "Europe/Copenhagen",
         });
 
         // Clean up description - remove extra formatting
