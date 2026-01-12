@@ -255,7 +255,9 @@
         const minute = dateStr.substring(11, 13);
         time = ` ${hour}:${minute}`;
       }
-      return new Date(`${year}-${month}-${day}${time}`);
+      // Preserve the Z suffix if present (indicates UTC time)
+      const timezone = dateStr.endsWith("Z") ? "Z" : "";
+      return new Date(`${year}-${month}-${day}${time}${timezone}`);
     }
     return new Date(dateStr);
   }
@@ -275,10 +277,12 @@
           weekday: "short",
           day: "numeric",
           month: "short",
+          timeZone: "Europe/Copenhagen",
         });
         const time = event.dtstart.toLocaleTimeString("da-DK", {
           hour: "2-digit",
           minute: "2-digit",
+          timeZone: "Europe/Copenhagen",
         });
 
         // Clean up description - remove extra formatting
