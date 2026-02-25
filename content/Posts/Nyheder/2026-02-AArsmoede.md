@@ -1,11 +1,11 @@
 ---
-date: 2025-02-05
+date: 2025-02-25
 draft: false
-title: "Årsmøde 2026"
+title: Årsmøde 2026
 ShowToc: true
 TocOpen: true
 cover:
-  image: "img/Meeting.png"
+  image: img/Meeting.png
 ---
 
 ## Formandens beretning 2026
