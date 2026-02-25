@@ -1,5 +1,5 @@
 ---
-date: 2025-02-25
+date: 2026-02-25
 draft: false
 title: Årsmøde 2026
 ShowToc: true
