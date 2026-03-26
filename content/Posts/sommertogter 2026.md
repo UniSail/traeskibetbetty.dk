@@ -70,7 +70,7 @@ Hyggetogtet er et mere roligt togt, hvor der er fokus på hyggesejlads, fælless
 
 ### Limfjorden Rundt
 
-📅 Dato ikke fastlagt  
+📅 Datoen er ikke fastlagt men arrangementet er altid i uge 37  
 👨‍✈️ Skipper: Morten
 
 Limfjorden Rundt er den årlige sejlads rundt i Limfjorden sammen med mange andre skibe. Det plejer at være en rigtig hyggelig tur med korte sejladser, mange både og god stemning i havnene.

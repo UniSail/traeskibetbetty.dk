@@ -6,9 +6,7 @@ title: "Skibet"
 
 Foreningen UniSail ejer i fælleskab Træskibet Betty.
 
-Skibet er bygget i 1913 i Esbjerg.
-
-{{< ship-age >}}
+Skibet er bygget i 1913 i Esbjerg. Vi kender ikke den præcise dato men vi fejrer Bettys fødselsdag den 25. august hvert år. Det betyder at betty er {{< ship-age-inline >}} år gammel.
 
 Foreningen drives af frivillige, især studerende, der engagerer sig i sejlads, skibsbevaring og at skabe gode oplevelser maritime oplevelser. Medlemmerne mødes ugentligt til sejladser i sommerhalvåret og vedligeholdelse i vinterhalvåret samt til diverse events såsom Aalborg Regatta eller til den årlige julefrokost og årsmødet.
 
