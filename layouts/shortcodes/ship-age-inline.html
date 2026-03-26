@@ -10,9 +10,7 @@
     padding: 0.15rem 0.4rem;
     border-radius: 4px;
     font-size: 0.95em;
-  }
-  .ship-age-inline::after {
-    content: " ";
+    margin-right: 0.25em; /* ← normal space after inline element */
   }
 </style>
 
@@ -28,6 +26,7 @@
         now.getMonth() === birthDate.getMonth() &&
         now.getDate() >= birthDate.getDate();
       if (!monthPassed && !dayPassed) age -= 1;
+
       el.querySelector(".age-placeholder").textContent = age;
     });
   });
