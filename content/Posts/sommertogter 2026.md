@@ -18,7 +18,7 @@ Kalder alle unge, studerende og træskibsinteresserede!
 
 Til sommer stævner vi igen ud på sommertogt med Betty. I 2026 går turen blandt andet til Tall Ships Races, hvor vi sejler sammen med en masse andre traditionelle sejlskibe fra hele verden. Undervejs vil der både være kapsejlads, Cruise in Company, havneophold og masser af gode oplevelser til søs og i havn.
 
-Hvis du mangler noget at lave i sommerferien, kunne tænke dig at prøve livet ombord på et 111 år gammelt træskib, lære at sejle eller bare få en sommer fyldt med oplevelser, fællesskab og saltvand i håret, så skal du med på sommertogt med Betty.
+Hvis du mangler noget at lave i sommerferien, kunne tænke dig at prøve livet ombord på et {{< ship-age-inline >}} år gammelt træskib, lære at sejle eller bare få en sommer fyldt med oplevelser, fællesskab og saltvand i håret, så skal du med på sommertogt med Betty.
 
 Det kræver ingen tidligere sejlerfaring – kun at du har lyst til at lære, tage fat og være en del af fællesskabet ombord.
 

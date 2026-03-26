@@ -8,6 +8,8 @@ Foreningen UniSail ejer i fælleskab Træskibet Betty.
 
 Skibet er bygget i 1913 i Esbjerg.
 
+{{< ship-age >}}
+
 Foreningen drives af frivillige, især studerende, der engagerer sig i sejlads, skibsbevaring og at skabe gode oplevelser maritime oplevelser. Medlemmerne mødes ugentligt til sejladser i sommerhalvåret og vedligeholdelse i vinterhalvåret samt til diverse events såsom Aalborg Regatta eller til den årlige julefrokost og årsmødet.
 
 Betty er et socialt sejlende fælleskab og et samlingspunkt for unge Aalborgensere hele året rundt som en del er foreningen UniSail.
