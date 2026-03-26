@@ -53,7 +53,7 @@ På dette togt vil man både opleve længere stræk på åbent hav, havneophold 
 📍 Stavanger – Aalborg  
 👨‍✈️ Skipper: Tommy
 
-Dette togt starter i Stavanger og går tilbage mod Danmark og Aalborg. Togtet vil byde på sejlads langs den norske kyst og over Skagerrak. Afhængigt af vind og vejr kan der blive stop i forskellige havne undervejs.
+Dette togt starter i Stavanger og går tilbage mod Danmark og Aalborg. Togtet vil byde på sejlads langs den norske kyst og over Skagerrak.
 
 Dette togt er en god mulighed for at prøve en lidt kortere tur, men stadig få oplevelsen af livet ombord, vagter, sejlads og fællesskab.
 

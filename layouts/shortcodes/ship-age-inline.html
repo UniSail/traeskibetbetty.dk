@@ -1,27 +1,31 @@
-<span class="ship-age-inline" data-birth="1913-08-25">⛵ Betty is <span class="age-placeholder">…</span> years old</span>
+<span class="ship-age-inline" data-birth="1913-08-25">
+  <span class="age-placeholder">…</span></span
+>
 
 <style>
-.ship-age-inline {
-  font-weight: 600;
-  color: #1976d2;
-  background: rgba(33, 150, 243, 0.1);
-  padding: 0.15rem 0.4rem;
-  border-radius: 4px;
-  font-size: 0.95em;
-}
+  .ship-age-inline {
+    font-weight: 600;
+    color: #1976d2;
+    background: rgba(33, 150, 243, 0.1);
+    padding: 0.15rem 0.4rem;
+    border-radius: 4px;
+    font-size: 0.95em;
+  }
 </style>
 
 <script>
-document.addEventListener("DOMContentLoaded", () => {
-  const elements = document.querySelectorAll(".ship-age-inline");
-  elements.forEach(el => {
-    const birthDate = new Date(el.getAttribute("data-birth"));
-    const now = new Date();
-    let age = now.getFullYear() - birthDate.getFullYear();
-    const monthPassed = now.getMonth() > birthDate.getMonth();
-    const dayPassed = now.getMonth() === birthDate.getMonth() && now.getDate() >= birthDate.getDate();
-    if (!monthPassed && !dayPassed) age -= 1;
-    el.querySelector(".age-placeholder").textContent = age;
+  document.addEventListener("DOMContentLoaded", () => {
+    const elements = document.querySelectorAll(".ship-age-inline");
+    elements.forEach((el) => {
+      const birthDate = new Date(el.getAttribute("data-birth"));
+      const now = new Date();
+      let age = now.getFullYear() - birthDate.getFullYear();
+      const monthPassed = now.getMonth() > birthDate.getMonth();
+      const dayPassed =
+        now.getMonth() === birthDate.getMonth() &&
+        now.getDate() >= birthDate.getDate();
+      if (!monthPassed && !dayPassed) age -= 1;
+      el.querySelector(".age-placeholder").textContent = age;
+    });
   });
-});
 </script>
