@@ -110,7 +110,7 @@ Vedtægtsændringer kræver at blive stemt igennem til årsmødet.
 
 Der er blevet tilføjet Lodsen 5 til vedtægterne samt små rettelser markeret i grøn.
 
-[Link til vedtægterne](../../../PDF/2026_Vedtægter_for_UniSail.pdf)
+[Link til vedtægterne](/PDF/2026_Vedtægter_for_UniSail_Forslag_Grøn.pdf)
 
 Alle kan acceptere ændringerne til vedtægterne.
 

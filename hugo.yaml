@@ -42,6 +42,8 @@ menu:
 
 markup:
   goldmark:
+    renderer:
+      unsafe: true
     extensions:
       extras:
         delete:
@@ -49,5 +51,3 @@ markup:
         subscript:
           enable: true
       strikethrough: false
-    renderer:
-      unsafe: true

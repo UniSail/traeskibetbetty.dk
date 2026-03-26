@@ -1,0 +1,114 @@
+<div class="tilmelding-container">
+  <div class="tilmelding-header">
+    <h3>⛵ Sommertogt 2026</h3>
+  </div>
+
+  <div class="tilmelding-content">
+    <p class="tilmelding-description">
+      Har du lyst til at komme med på sommertogt med Betty?  
+      Tilmelding foregår via formularen nedenfor.
+    </p>
+
+    <!-- BLUE BUTTON -->
+    <a
+      href="{{ .Get "link" | default "#" }}"
+      target="_blank"
+      rel="noopener noreferrer"
+      class="tilmelding-link"
+    >
+      <div class="tilmelding-button">
+        📝 <strong>Tilmeld dig sommertogt</strong><br />
+        <small>Åbner tilmeldingsformular</small>
+      </div>
+    </a>
+
+    <!-- Optional info -->
+    <div class="tilmelding-note">
+      <p>
+        <strong>OBS:</strong> Du skal være medlem af UniSail for at deltage.
+      </p>
+    </div>
+  </div>
+</div>
+
+<style>
+  .tilmelding-container {
+    font-family: system-ui, -apple-system, sans-serif;
+    margin: 1.5rem 0;
+    background: #ffffff;
+    border: 1px solid #e1e5e9;
+    border-radius: 12px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+  }
+
+  .tilmelding-header {
+    background: linear-gradient(135deg, #2196f3, #1976d2);
+    color: white;
+    padding: 1.5rem;
+    text-align: center;
+  }
+
+  .tilmelding-header h3 {
+    margin: 0;
+    font-size: 1.5rem;
+  }
+
+  .tilmelding-content {
+    padding: 1.5rem;
+  }
+
+  .tilmelding-description {
+    margin-bottom: 1rem;
+    color: #333;
+  }
+
+  .tilmelding-link {
+    display: block;
+    text-decoration: none !important;
+    margin-top: 1rem;
+    color: inherit;
+  }
+
+  .tilmelding-button {
+    background: linear-gradient(135deg, #2196f3, #1976d2);
+    color: white;
+    padding: 1rem;
+    border-radius: 8px;
+    text-align: center;
+    font-weight: 600;
+    font-size: 1.1rem;
+    box-shadow: 0 2px 4px rgba(33, 150, 243, 0.3);
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+  }
+
+  .tilmelding-link:hover .tilmelding-button {
+    transform: translateY(-2px);
+    box-shadow: 0 4px 8px rgba(33, 150, 243, 0.4);
+  }
+
+  .tilmelding-note {
+    margin-top: 1rem;
+    font-size: 0.9rem;
+    color: #666;
+  }
+
+  /* Dark mode */
+  body.dark .tilmelding-container {
+    background: #1a1a1a;
+    border-color: #444;
+  }
+
+  body.dark .tilmelding-description {
+    color: #ccc;
+  }
+
+  body.dark .tilmelding-note {
+    color: #aaa;
+  }
+
+  body.dark .tilmelding-header,
+  body.dark .tilmelding-button {
+    background: linear-gradient(135deg, #42a5f5, #1e88e5);
+  }
+</style>

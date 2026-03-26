@@ -21,7 +21,6 @@ Du melder dig ind ved at udfylde blanketten via linket her på siden. Når din t
 
 Du kan altid tage kontakt til os igennem Instagram eller Facebook
 
-- <https://www.facebook.com/BettyAfAalborg>
 - <https://www.instagram.com/traeskibet.betty/>
 
 ## Betaling af kontingent
