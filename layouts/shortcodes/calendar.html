@@ -8,88 +8,65 @@
 
 <style>
   .calendar-widget {
-    border: 1px solid var(--border-color, #ddd);
+    border: 1px solid var(--border);
     padding: 20px;
-    border-radius: 8px;
-    background: var(--bg-color, #fff);
-    color: var(--text-color, #333);
+    border-radius: 12px;
+    background: var(--entry);
+    color: var(--content);
     margin: 1rem 0;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
   }
 
   .calendar-title {
-    color: var(--heading-color, #333);
+    color: var(--primary);
     margin-top: 0;
     margin-bottom: 1rem;
   }
 
   .calendar-loading {
-    color: var(--muted-color, #666);
+    color: var(--secondary);
     font-style: italic;
   }
 
   .calendar-event {
     margin-bottom: 15px;
     padding: 15px;
-    background: var(--card-bg, #f9f9f9);
-    border-radius: 8px;
-    border-left: 4px solid var(--accent-color, #4caf50);
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    background: var(--theme);
+    border-radius: 10px;
+    border-left: 4px solid #4caf50; /* keep your accent */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.08);
   }
 
   .calendar-event-title {
     font-weight: bold;
-    color: var(--accent-color, #4caf50);
+    color: #4caf50;
     font-size: 1.1em;
     margin-bottom: 8px;
   }
 
   .calendar-event-meta {
     font-size: 0.9em;
-    color: var(--muted-color, #666);
+    color: var(--secondary);
     margin-bottom: 8px;
   }
 
   .calendar-event-description {
     font-size: 0.9em;
-    color: var(--text-color, #333);
+    color: var(--content);
     line-height: 1.4;
   }
 
   .calendar-error {
-    color: var(--error-color, #ff6b6b);
+    color: #ff6b6b;
   }
 
   .calendar-empty {
-    color: var(--muted-color, #666);
+    color: var(--secondary);
   }
 
-  /* Dark mode support - these will apply when body has "list dark" class */
-  body.list.dark .calendar-widget {
-    border-color: #444;
-    background: #2d2d2d;
-    color: #e0e0e0;
-  }
-
-  body.list.dark .calendar-title {
-    color: #ffffff;
-  }
-
-  body.list.dark .calendar-loading,
-  body.list.dark .calendar-empty {
-    color: #b0b0b0;
-  }
-
-  body.list.dark .calendar-event {
-    background: #3a3a3a;
+  /* Optional: slightly nicer dark mode accent tweak */
+  :root[data-theme="dark"] .calendar-event {
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
-  }
-
-  body.list.dark .calendar-event-meta {
-    color: #b0b0b0;
-  }
-
-  body.list.dark .calendar-event-description {
-    color: #d0d0d0;
   }
 </style>
 

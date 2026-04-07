@@ -35,36 +35,25 @@
       </div>
     </div>
 
-    <a
-      href="https://docs.google.com/forms/d/e/1FAIpQLSdyT0wP4VgZDm7jutsMoUuHmtcx8qzqthi9CyBmNgeC8dRKEA/viewform?fbclid=PAZXh0bgNhZW0CMTEAAaaDeYSj6o3rWcpBiEuD3ILtzR_AlyMd3Xqz3RLQQLI9Kft6iAChYFu1dp4_aem_nheotNanQc5aQdTqs4948w"
-      target="_blank"
-      rel="noopener noreferrer"
-      class="questionnaire-link"
-    >
+    <a href="..." class="questionnaire-link">
       <div class="questionnaire-button">
         📝 <strong>Udfyld indmeldelsesblanketten</strong><br />
         <small>Obligatorisk før indmeldelse</small>
       </div>
     </a>
-    <a
-      href="https://web.minforening.dk/invitation?clubToken=7cFDutp14PSiFFDtY9Q_c6_ZnAfDNT_pk39IFFSkheFqSEyyFqFuYXlvRfx6CqTaG7d38wo0YgYC08p1YMvuZA=="
-      target="_blank"
-      rel="noopener noreferrer"
-      class="kontingent-link"
-    >
+
+    <a href="..." class="kontingent-link">
       <div id="kontingent-resultat" class="kontingent-result"></div>
     </a>
   </div>
 </div>
 
 <style>
-  /* Light mode styles */
   .kontingent-container {
     font-family: system-ui, -apple-system, sans-serif;
-    /* max-width: 400px; */
     margin: 1.5rem auto;
-    background: #ffffff;
-    border: 1px solid #e1e5e9;
+    background: var(--entry);
+    border: 1px solid var(--border);
     border-radius: 12px;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
     overflow: hidden;
@@ -77,53 +66,41 @@
     text-align: center;
   }
 
-  .kontingent-header h3 {
-    margin: 0;
-    font-size: 1.5rem;
-    font-weight: 600;
-  }
-
   .kontingent-content {
     padding: 1.5rem;
   }
 
   .kontingent-description {
-    color: #333333;
+    color: var(--content);
     line-height: 1.6;
     margin-bottom: 1rem;
   }
 
   .kontingent-benefits {
     list-style: none;
-    padding: 0;
-    margin: 1rem 0;
-    background: #f8f9fa;
-    border-radius: 8px;
     padding: 1rem;
+    margin: 1rem 0;
+    background: var(--theme);
+    border-radius: 8px;
   }
 
   .kontingent-benefits li {
     padding: 0.5rem 0;
-    color: #333333;
-    border-bottom: 1px solid #e1e5e9;
+    color: var(--content);
+    border-bottom: 1px solid var(--border);
   }
 
   .kontingent-benefits li:last-child {
     border-bottom: none;
   }
 
-  .kontingent-pricing {
-    margin: 1.5rem 0;
-  }
-
   .kontingent-pricing h4 {
-    color: #333333;
+    color: var(--primary);
     margin-bottom: 1rem;
-    font-size: 1.1rem;
   }
 
   .pricing-list {
-    background: #f8f9fa;
+    background: var(--theme);
     border-radius: 8px;
     overflow: hidden;
   }
@@ -131,9 +108,13 @@
   .price-item {
     display: flex;
     justify-content: space-between;
-    align-items: center;
     padding: 0.75rem 1rem;
-    border-bottom: 1px solid #e1e5e9;
+    border-bottom: 1px solid var(--border);
+    transition: background 0.15s ease;
+  }
+
+  .price-item:hover {
+    background: var(--entry);
   }
 
   .price-item:last-child {
@@ -141,39 +122,28 @@
   }
 
   .period {
-    color: #333333;
+    color: var(--content);
     font-weight: 500;
   }
 
   .price {
     color: #4caf50;
     font-weight: 700;
-    font-size: 1.1rem;
   }
 
-  .kontingent-link {
+  /* Links (shared behavior cleanup) */
+  .kontingent-link,
+  .questionnaire-link {
     display: block;
     text-decoration: none !important;
-    margin-top: 1.5rem;
-    transition: transform 0.2s ease, box-shadow 0.2s ease;
+    margin-top: 1rem;
     color: inherit;
-    border: none;
-    outline: none;
-    box-shadow: none !important;
-    box-decoration-break: initial !important;
-    -webkit-box-decoration-break: initial !important;
+    transition: transform 0.2s ease;
   }
 
   .kontingent-link:hover,
-  .kontingent-link:focus,
-  .kontingent-link:active,
-  .kontingent-link:visited {
-    text-decoration: none !important;
-    color: inherit;
+  .questionnaire-link:hover {
     transform: translateY(-2px);
-    box-shadow: none !important;
-    box-decoration-break: initial !important;
-    -webkit-box-decoration-break: initial !important;
   }
 
   .kontingent-result {
@@ -183,38 +153,11 @@
     border-radius: 8px;
     text-align: center;
     font-weight: 600;
-    font-size: 1.1rem;
     box-shadow: 0 2px 4px rgba(76, 175, 80, 0.3);
-    cursor: pointer;
   }
 
   .kontingent-link:hover .kontingent-result {
     box-shadow: 0 4px 8px rgba(76, 175, 80, 0.4);
-  }
-
-  .questionnaire-link {
-    display: block;
-    text-decoration: none !important;
-    margin-top: 1rem;
-    transition: transform 0.2s ease, box-shadow 0.2s ease;
-    color: inherit;
-    border: none;
-    outline: none;
-    box-shadow: none !important;
-    box-decoration-break: initial !important;
-    -webkit-box-decoration-break: initial !important;
-  }
-
-  .questionnaire-link:hover,
-  .questionnaire-link:focus,
-  .questionnaire-link:active,
-  .questionnaire-link:visited {
-    text-decoration: none !important;
-    color: inherit;
-    transform: translateY(-2px);
-    box-shadow: none !important;
-    box-decoration-break: initial !important;
-    -webkit-box-decoration-break: initial !important;
   }
 
   .questionnaire-button {
@@ -224,100 +167,22 @@
     border-radius: 8px;
     text-align: center;
     font-weight: 600;
-    font-size: 1.1rem;
     box-shadow: 0 2px 4px rgba(33, 150, 243, 0.3);
-    cursor: pointer;
+    transition: transform 0.15s ease, box-shadow 0.15s ease;
   }
 
   .questionnaire-link:hover .questionnaire-button {
     box-shadow: 0 4px 8px rgba(33, 150, 243, 0.4);
   }
 
-  /* Dark mode styles */
-  body.dark .kontingent-container {
-    background: #1a1a1a;
-    border-color: #444444;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
-  }
-
-  body.dark .kontingent-header {
+  /* Optional dark tweak (minimal!) */
+  :root[data-theme="dark"] .kontingent-header,
+  :root[data-theme="dark"] .kontingent-result {
     background: linear-gradient(135deg, #66bb6a, #5cb660);
   }
 
-  body.dark .kontingent-description {
-    color: #cccccc;
-  }
-
-  body.dark .kontingent-benefits {
-    background: #2a2a2a;
-  }
-
-  body.dark .kontingent-benefits li {
-    color: #cccccc;
-    border-bottom-color: #444444;
-  }
-
-  body.dark .kontingent-pricing h4 {
-    color: #ffffff;
-  }
-
-  body.dark .pricing-list {
-    background: #2a2a2a;
-  }
-
-  body.dark .price-item {
-    border-bottom-color: #444444;
-  }
-
-  body.dark .period {
-    color: #cccccc;
-  }
-
-  body.dark .price {
-    color: #66bb6a;
-  }
-
-  body.dark .kontingent-result {
-    background: linear-gradient(135deg, #66bb6a, #5cb660);
-    box-shadow: 0 2px 4px rgba(102, 187, 106, 0.3);
-  }
-
-  body.dark .kontingent-link:hover .kontingent-result {
-    box-shadow: 0 4px 8px rgba(102, 187, 106, 0.4);
-  }
-
-  body.dark .questionnaire-button {
+  :root[data-theme="dark"] .questionnaire-button {
     background: linear-gradient(135deg, #42a5f5, #1e88e5);
-    box-shadow: 0 2px 4px rgba(66, 165, 245, 0.3);
-  }
-
-  body.dark .questionnaire-link:hover .questionnaire-button {
-    box-shadow: 0 4px 8px rgba(66, 165, 245, 0.4);
-  }
-
-  /* Mobile responsiveness */
-  @media (max-width: 480px) {
-    .kontingent-container {
-      max-width: none;
-    }
-
-    .kontingent-header {
-      padding: 1rem;
-    }
-
-    .kontingent-content {
-      padding: 1rem;
-    }
-
-    .price-item {
-      flex-direction: row;
-      align-items: flex-start;
-      gap: 0.25rem;
-    }
-
-    .price {
-      align-self: flex-end;
-    }
   }
 </style>
 

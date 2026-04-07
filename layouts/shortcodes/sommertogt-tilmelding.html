@@ -9,7 +9,6 @@
       Tilmelding foregår via formularen nedenfor.
     </p>
 
-    <!-- BLUE BUTTON -->
     <a
       href="{{ .Get "link" | default "#" }}"
       target="_blank"
@@ -22,7 +21,6 @@
       </div>
     </a>
 
-    <!-- Optional info -->
     <div class="tilmelding-note">
       <p>
         <strong>OBS:</strong> Du skal være medlem af UniSail for at deltage.
@@ -35,15 +33,20 @@
   .tilmelding-container {
     font-family: system-ui, -apple-system, sans-serif;
     margin: 1.5rem 0;
-    background: #ffffff;
-    border: 1px solid #e1e5e9;
+    background: var(--entry);
+    border: 1px solid var(--border);
     border-radius: 12px;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
     overflow: hidden;
   }
 
   .tilmelding-header {
-    background: linear-gradient(135deg, #2196f3, #1976d2);
+    /* Keep your blue accent but make it slightly adaptive */
+    background: linear-gradient(
+      135deg,
+      #2196f3,
+      #1976d2
+    );
     color: white;
     padding: 1.5rem;
     text-align: center;
@@ -60,7 +63,7 @@
 
   .tilmelding-description {
     margin-bottom: 1rem;
-    color: #333;
+    color: var(--content);
   }
 
   .tilmelding-link {
@@ -71,7 +74,11 @@
   }
 
   .tilmelding-button {
-    background: linear-gradient(135deg, #2196f3, #1976d2);
+    background: linear-gradient(
+      135deg,
+      #2196f3,
+      #1976d2
+    );
     color: white;
     padding: 1rem;
     border-radius: 8px;
@@ -90,25 +97,16 @@
   .tilmelding-note {
     margin-top: 1rem;
     font-size: 0.9rem;
-    color: #666;
+    color: var(--secondary);
   }
 
-  /* Dark mode */
-  body.dark .tilmelding-container {
-    background: #1a1a1a;
-    border-color: #444;
-  }
-
-  body.dark .tilmelding-description {
-    color: #ccc;
-  }
-
-  body.dark .tilmelding-note {
-    color: #aaa;
-  }
-
-  body.dark .tilmelding-header,
-  body.dark .tilmelding-button {
-    background: linear-gradient(135deg, #42a5f5, #1e88e5);
+  /* Optional: subtle dark-mode tweak using correct selector */
+  :root[data-theme="dark"] .tilmelding-header,
+  :root[data-theme="dark"] .tilmelding-button {
+    background: linear-gradient(
+      135deg,
+      #42a5f5,
+      #1e88e5
+    );
   }
 </style>
