@@ -1,10 +1,10 @@
 ---
 date: 2025-11-12
-draft: false
+draft: true
 title: Møde med Aalborg Kommune - November 2025
 ShowToc: true
 TocOpen: true
-hidden: false
+hidden: true
 cover:
   image: "img/Meeting.png"
 ---
