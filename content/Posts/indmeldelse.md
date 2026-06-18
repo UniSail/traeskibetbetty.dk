@@ -19,7 +19,7 @@ Du melder dig ind ved at udfylde blanketten via linket her på siden. Når din t
 
 3. Man møder op og får pludselig venner og fritidsaktiviteter (wow det er smart)
 
-Du kan altid tage kontakt til os igennem Instagram eller Facebook
+Du kan altid tage kontakt til os igennem Instagram
 
 - <https://www.instagram.com/traeskibet.betty/>
 
