@@ -2,19 +2,48 @@
 
 ## Installation
 
-Find guides on <https://gohugo.io/getting-started/quick-start/>
+Hugo guides: https://gohugo.io/getting-started/quick-start/
 
-After cloning repository run this command to setup Papermod (The theme for this website)
+After cloning:
 
 ```shell
-git submodule update --init --recursive # needed when you reclone your repo (submodules may not get cloned automatically)
+git submodule update --init --recursive
 ```
+
+### Run with Docker
+
+Create a `.env` file:
+
+```env
+TS_AUTHKEY=your-tailscale-auth-key
+HUGO_BASEURL=https://your-tailscale-hostname.ts.net/
+```
+
+Start:
+
+```shell
+docker compose up -d
+```
+
+Stop:
+
+```shell
+docker compose down
+```
+
+View logs:
+
+```shell
+docker compose logs -f
+```
+
+### Run Hugo locally
 
 ```shell
 hugo serve
 ```
 
-For at konvertere et dokument til pdf kan følgende bruges:
+### Convert Markdown to PDF
 
 ```shell
 pandoc "April 2024.md" -o test.pdf --pdf-engine=xelatex

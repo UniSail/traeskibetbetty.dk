@@ -1,0 +1,62 @@
+services:
+
+  hugo:
+    image: ghcr.io/gohugoio/hugo:v0.165.0
+
+    working_dir: /src
+
+    command:
+      - server
+      - --bind
+      - 0.0.0.0
+      - --port
+      - "1313"
+      - --disableFastRender
+      - --buildDrafts
+      - --baseURL
+      - ${HUGO_BASEURL}
+      - --appendPort=false
+
+    volumes:
+      - .:/src
+
+    restart: unless-stopped
+
+  tailscale:
+    image: tailscale/tailscale:latest
+
+    depends_on:
+      - hugo
+
+    network_mode: service:hugo
+
+    environment:
+      TS_AUTHKEY: ${TS_AUTHKEY}
+      TS_STATE_DIR: /var/lib/tailscale
+
+    volumes:
+      - ./.tailscale:/var/lib/tailscale
+
+    devices:
+      - /dev/net/tun:/dev/net/tun
+
+    cap_add:
+      - NET_ADMIN
+      - SYS_MODULE
+
+    command:
+      - sh
+      - -c
+      - |
+        tailscaled &
+        sleep 3
+
+        tailscale up \
+          --authkey="$${TS_AUTHKEY}" \
+          --hostname=traeskibetbetty
+
+        tailscale funnel --bg 1313
+
+        wait
+
+    restart: unless-stopped
