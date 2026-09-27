@@ -33,7 +33,7 @@
     padding: 15px;
     background: var(--theme);
     border-radius: 10px;
-    border-left: 4px solid #4caf50; /* keep your accent */
+    border-left: 4px solid #4caf50;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.08);
   }
 
@@ -64,7 +64,13 @@
     color: var(--secondary);
   }
 
-  /* Optional: slightly nicer dark mode accent tweak */
+  .calendar-more {
+    text-align: center;
+    color: var(--secondary);
+    font-size: 0.85em;
+    margin-top: 1rem;
+  }
+
   :root[data-theme="dark"] .calendar-event {
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
   }
@@ -73,168 +79,128 @@
 <script>
   async function loadCalendarEvents() {
     try {
-      // Use a CORS proxy to fetch the iCal data
+      // Fetch the live iCal data directly from MinForening
       const response = await fetch(
-        "https://api.allorigins.win/get?url=" +
-          encodeURIComponent(
-            "https://api.minforening.dk/api/v3/clubs/5219/ical"
-          )
+        "https://api.minforening.dk/api/v3/clubs/5219/ical",
       );
-      const data = await response.json();
-      let icalData = data.contents;
 
-      // Check if the data is base64 encoded
+      if (!response.ok) {
+        throw new Error(`HTTP ${response.status}`);
+      }
+
+      let icalData = await response.text();
+
+      // Handle Base64-encoded calendar data if MinForening ever returns it
       if (
         icalData.startsWith("data:text/calendar") &&
         icalData.includes("base64,")
       ) {
-        // Extract the base64 part and decode it
         const base64Data = icalData.split("base64,")[1];
         icalData = atob(base64Data);
       }
 
-      // Parse iCal data (basic parsing)
       const events = parseICalEvents(icalData);
       displayEvents(events);
     } catch (error) {
+      console.error("Kunne ikke indlæse MinForening kalender:", error);
+
       document.getElementById("calendar-events").innerHTML =
         '<p class="calendar-error">❌ Kunne ikke indlæse aktiviteter</p>';
     }
   }
 
-  // Function to decode iCal text properly
   function decodeICalText(text) {
-    if (!text) return text;
+    if (!text) return "";
 
-    // First try to decode as URI component if it looks encoded
-    let decoded = text;
-    try {
-      if (text.includes("%")) {
-        decoded = decodeURIComponent(text);
-      }
-    } catch (e) {
-      // If URI decoding fails, continue with original text
-      decoded = text;
-    }
-
-    // Fix double UTF-8 encoding issues by converting back to proper encoding
-    try {
-      // Encode as Latin-1 then decode as UTF-8 to fix double encoding
-      const latin1Bytes = [];
-      for (let i = 0; i < decoded.length; i++) {
-        latin1Bytes.push(decoded.charCodeAt(i) & 0xff);
-      }
-      const uint8Array = new Uint8Array(latin1Bytes);
-      decoded = new TextDecoder("utf-8").decode(uint8Array);
-    } catch (e) {
-      // If encoding conversion fails, fall back to manual replacements
-      decoded = decoded
-        // Fix Danish characters that are double-encoded
-        .replace(/Ã¥/g, "å")
-        .replace(/Ã¦/g, "æ")
-        .replace(/Ã¸/g, "ø")
-        .replace(/Ã†/g, "Æ")
-        .replace(/Ã˜/g, "Ø")
-        .replace(/Ã…/g, "Å")
-        // Additional common encoding issues
-        .replace(/Ã©/g, "é")
-        .replace(/Ã¤/g, "ä")
-        .replace(/Ã¶/g, "ö");
-    }
-
-    // Decode common iCal escape sequences
-    decoded = decoded
-      .replace(/\\n/g, "\n") // New lines
-      .replace(/\\,/g, ",") // Commas
-      .replace(/\\;/g, ";") // Semicolons
-      .replace(/\\\\/g, "\\"); // Backslashes
-
-    // Fix specific broken emoji sequences we see in the data
-    decoded = decoded
-      .replace(/âµï¸ð/g, "⛵️📍") // Sailboat + pin
-      .replace(/âµï¸/g, "⛵️") // Sailboat with variant selector
-      .replace(/âµ/g, "⛵") // Sailboat
-      .replace(/ð ï¸/g, "🛠️") // Tools
-      .replace(/ð/g, "📍") // Pin location
-      .replace(/â/g, "⚓") // Anchor
-      // Clean up any remaining broken characters
-      .replace(/[âï¸]/g, "") // Remove broken combining chars
-      // Clean up double spaces
-      .replace(/\s+/g, " ")
+    return text
+      .replace(/\\n/g, "\n")
+      .replace(/\\,/g, ",")
+      .replace(/\\;/g, ";")
+      .replace(/\\\\/g, "\\")
       .trim();
-
-    return decoded;
-  }
-
-  // Function to check if text already contains common icons
-  function hasIcon(text, iconType) {
-    if (!text) return false;
-
-    const iconMap = {
-      location: ["📍", "🗺️", "ð"],
-      date: ["📅", "🗓️"],
-      time: ["🕐", "⏰"],
-    };
-
-    return iconMap[iconType]?.some((icon) => text.includes(icon)) || false;
   }
 
   function parseICalEvents(icalData) {
     const events = [];
-    const lines = icalData.split("\n");
-    let currentEvent = {};
 
-    for (let line of lines) {
-      line = line.trim();
+    // iCal supports folded lines. Join continuation lines first.
+    const lines = icalData
+      .replace(/\r\n/g, "\n")
+      .replace(/\n[ \t]/g, "")
+      .split("\n");
+
+    let currentEvent = null;
+
+    for (const line of lines) {
       if (line === "BEGIN:VEVENT") {
         currentEvent = {};
-      } else if (line === "END:VEVENT") {
-        if (currentEvent.summary && currentEvent.dtstart) {
-          // Decode all text fields
+        continue;
+      }
+
+      if (line === "END:VEVENT") {
+        if (currentEvent?.summary && currentEvent?.dtstart) {
           currentEvent.summary = decodeICalText(currentEvent.summary);
           currentEvent.description = decodeICalText(currentEvent.description);
           currentEvent.location = decodeICalText(currentEvent.location);
+
           events.push(currentEvent);
         }
-      } else if (line.startsWith("SUMMARY:")) {
+
+        currentEvent = null;
+        continue;
+      }
+
+      if (!currentEvent) continue;
+
+      if (line.startsWith("SUMMARY:")) {
         currentEvent.summary = line.substring(8);
       } else if (line.startsWith("DTSTART:")) {
-        const dateStr = line.substring(8);
-        currentEvent.dtstart = parseICalDate(dateStr);
+        currentEvent.dtstart = parseICalDate(line.substring(8));
       } else if (line.startsWith("DTEND:")) {
-        const dateStr = line.substring(6);
-        currentEvent.dtend = parseICalDate(dateStr);
+        currentEvent.dtend = parseICalDate(line.substring(6));
       } else if (line.startsWith("DESCRIPTION:")) {
         currentEvent.description = line.substring(12);
-        // Debug: log raw description to see encoding
       } else if (line.startsWith("LOCATION:")) {
         currentEvent.location = line.substring(9);
-        // Debug: log raw location to see encoding
       }
     }
 
-    // Sort by date and take next 5 events
+    // Keep all future events so we can count them.
     return events
-      .filter((event) => event.dtstart > new Date())
-      .sort((a, b) => a.dtstart - b.dtstart)
-      .slice(0, 5);
+      .filter(
+        (event) =>
+          event.dtstart instanceof Date &&
+          !isNaN(event.dtstart) &&
+          event.dtstart > new Date(),
+      )
+      .sort((a, b) => a.dtstart - b.dtstart);
   }
 
   function parseICalDate(dateStr) {
-    // Handle YYYYMMDDTHHMMSSZ format
-    if (dateStr.length >= 8) {
-      const year = dateStr.substring(0, 4);
-      const month = dateStr.substring(4, 6);
-      const day = dateStr.substring(6, 8);
-      let time = "";
-      if (dateStr.includes("T") && dateStr.length >= 15) {
-        const hour = dateStr.substring(9, 11);
-        const minute = dateStr.substring(11, 13);
-        time = ` ${hour}:${minute}`;
-      }
-      return new Date(`${year}-${month}-${day}${time}`);
+    if (!dateStr || dateStr.length < 8) {
+      return new Date(NaN);
     }
-    return new Date(dateStr);
+
+    const year = dateStr.substring(0, 4);
+    const month = dateStr.substring(4, 6);
+    const day = dateStr.substring(6, 8);
+
+    if (dateStr.includes("T") && dateStr.length >= 15) {
+      const hour = dateStr.substring(9, 11);
+      const minute = dateStr.substring(11, 13);
+
+      return new Date(`${year}-${month}-${day}T${hour}:${minute}:00`);
+    }
+
+    return new Date(`${year}-${month}-${day}T00:00:00`);
+  }
+
+  function escapeHtml(text) {
+    if (!text) return "";
+
+    const div = document.createElement("div");
+    div.textContent = text;
+    return div.innerHTML;
   }
 
   function displayEvents(events) {
@@ -246,57 +212,65 @@
       return;
     }
 
-    const eventsHtml = events
+    // Only display the next five events.
+    const visibleEvents = events.slice(0, 5);
+
+    const eventsHtml = visibleEvents
       .map((event) => {
         const date = event.dtstart.toLocaleDateString("da-DK", {
           weekday: "short",
           day: "numeric",
           month: "short",
         });
+
         const time = event.dtstart.toLocaleTimeString("da-DK", {
           hour: "2-digit",
           minute: "2-digit",
         });
 
-        // Clean up description - remove extra formatting
-        let description = event.description;
-        if (description) {
-          description = description
-            .replace(/\n\n/g, "<br>")
-            .replace(/\n/g, " ")
-            .substring(0, 150); // Limit length
-          if (event.description.length > 150) {
-            description += "...";
-          }
+        let description = event.description || "";
+
+        if (description.length > 150) {
+          description = description.substring(0, 150) + "...";
         }
 
-        // Check if location already has an icon, if not add one
-        const locationText = event.location
-          ? hasIcon(event.location, "location")
-            ? event.location
-            : `📍 ${event.location}`
+        const location = event.location
+          ? `📍 ${escapeHtml(event.location)}`
           : "";
 
         return `
-            <div class="calendar-event">
-                <div class="calendar-event-title">${event.summary}</div>
-                <div class="calendar-event-meta">
-                    📅 ${date} kl. ${time}
-                    ${locationText ? `<br>${locationText}` : ""}
-                </div>
-                ${
-                  description
-                    ? `<div class="calendar-event-description">${description}</div>`
-                    : ""
-                }
+          <div class="calendar-event">
+            <div class="calendar-event-title">
+              ${escapeHtml(event.summary)}
             </div>
+
+            <div class="calendar-event-meta">
+              📅 ${date} kl. ${time}
+              ${location ? `<br>${location}` : ""}
+            </div>
+
+            ${
+              description
+                ? `<div class="calendar-event-description">${escapeHtml(description)}</div>`
+                : ""
+            }
+          </div>
         `;
       })
       .join("");
 
-    container.innerHTML = eventsHtml;
+    container.innerHTML = `
+      ${eventsHtml}
+
+      ${
+        events.length > 5
+          ? `<div class="calendar-more">
+              Viser 5 af ${events.length} kommende aktiviteter
+            </div>`
+          : ""
+      }
+    `;
   }
 
-  // Load events when page loads
   document.addEventListener("DOMContentLoaded", loadCalendarEvents);
 </script>
