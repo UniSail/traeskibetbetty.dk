@@ -1,12 +1,12 @@
 <div class="kontingent-container">
   <div class="kontingent-header">
-    <h3>💰 Kontingent 2025</h3>
+    <h3>💰 Kontingent 2026</h3>
   </div>
 
   <div class="kontingent-content">
     <p class="kontingent-description">
       Et medlemskab hos UniSail koster <strong>400 kr.</strong> for et helt
-      kalenderår som starter i Maj. Et medlemskab giver dig:
+      kalenderår som starter i maj. Et medlemskab giver dig:
     </p>
 
     <ul class="kontingent-benefits">
@@ -19,15 +19,18 @@
 
     <div class="kontingent-pricing">
       <h4>Priser efter måned:</h4>
+
       <div class="pricing-list">
         <div class="price-item">
           <span class="period">Maj - August:</span>
           <span class="price">400 kr.</span>
         </div>
+
         <div class="price-item">
           <span class="period">September - Oktober:</span>
           <span class="price">250 kr.</span>
         </div>
+
         <div class="price-item">
           <span class="period">November - April:</span>
           <span class="price">150 kr.</span>
@@ -35,14 +38,17 @@
       </div>
     </div>
 
-    <a href="..." class="questionnaire-link">
+    <a
+      href="https://docs.google.com/forms/d/e/1FAIpQLSdyT0wP4VgZDm7jutsMoUuHmtcx8qzqthi9CyBmNgeC8dRKEA/viewform"
+      class="questionnaire-link"
+    >
       <div class="questionnaire-button">
         📝 <strong>Udfyld indmeldelsesblanketten</strong><br />
         <small>Obligatorisk før indmeldelse</small>
       </div>
     </a>
 
-    <a href="..." class="kontingent-link">
+    <a href="https://minforening.dk" class="kontingent-link">
       <div id="kontingent-resultat" class="kontingent-result"></div>
     </a>
   </div>
@@ -50,7 +56,10 @@
 
 <style>
   .kontingent-container {
-    font-family: system-ui, -apple-system, sans-serif;
+    font-family:
+      system-ui,
+      -apple-system,
+      sans-serif;
     margin: 1.5rem auto;
     background: var(--entry);
     border: 1px solid var(--border);
@@ -131,7 +140,6 @@
     font-weight: 700;
   }
 
-  /* Links (shared behavior cleanup) */
   .kontingent-link,
   .questionnaire-link {
     display: block;
@@ -168,14 +176,15 @@
     text-align: center;
     font-weight: 600;
     box-shadow: 0 2px 4px rgba(33, 150, 243, 0.3);
-    transition: transform 0.15s ease, box-shadow 0.15s ease;
+    transition:
+      transform 0.15s ease,
+      box-shadow 0.15s ease;
   }
 
   .questionnaire-link:hover .questionnaire-button {
     box-shadow: 0 4px 8px rgba(33, 150, 243, 0.4);
   }
 
-  /* Optional dark tweak (minimal!) */
   :root[data-theme="dark"] .kontingent-header,
   :root[data-theme="dark"] .kontingent-result {
     background: linear-gradient(135deg, #66bb6a, #5cb660);
@@ -189,7 +198,8 @@
 <script>
   function beregnKontingent() {
     const nu = new Date();
-    const måned = nu.getMonth() + 1; // Januar = 1
+    const måned = nu.getMonth() + 1;
+
     let pris;
     let periode;
 
@@ -205,12 +215,13 @@
     }
 
     const resultatElement = document.getElementById("kontingent-resultat");
+
     resultatElement.innerHTML = `
       <strong>🎯 Meld dig ind nu for ${pris} kr.</strong><br>
-      <small>Gælder for ${periode}</small>
+      <small>Gælder for ${periode}</small><br>
+      <small>Download MinForening og tilmeld Træskibet Betty</small>
     `;
   }
 
-  // Run calculation when DOM is loaded
   document.addEventListener("DOMContentLoaded", beregnKontingent);
 </script>
