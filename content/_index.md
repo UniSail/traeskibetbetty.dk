@@ -12,6 +12,6 @@ cover:
 
 Velkommen ombord på Træskibet Bettys hjemmeside! Oplev forenings fælleskab, historie og maritime aktiviteter. Foreningen UniSails formål er at skabe unikke oplevelser til havs for unge og studerende i Aalborg.
 
-{{< sommertogt-tilmelding link="https://docs.google.com/forms/d/e/1FAIpQLSd3psJgIC7QDSTzVmfpmMZXWQC9dUkhXxcqa1fEfJTIs33INA/viewform">}}
+{{< sommertogt-tilmelding-disabled år=2027 link="https://docs.google.com/forms/d/e/1FAIpQLSd3psJgIC7QDSTzVmfpmMZXWQC9dUkhXxcqa1fEfJTIs33INA/viewform">}}
 
 {{< calendar >}}
