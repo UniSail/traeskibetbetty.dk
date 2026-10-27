@@ -189,7 +189,9 @@
       const hour = dateStr.substring(9, 11);
       const minute = dateStr.substring(11, 13);
 
-      return new Date(`${year}-${month}-${day}T${hour}:${minute}:00`);
+      // MinForening sends times in UTC (suffix "Z"); keep it so the browser converts correctly
+      const timezone = dateStr.endsWith("Z") ? "Z" : "";
+      return new Date(`${year}-${month}-${day}T${hour}:${minute}:00${timezone}`);
     }
 
     return new Date(`${year}-${month}-${day}T00:00:00`);
@@ -221,11 +223,13 @@
           weekday: "short",
           day: "numeric",
           month: "short",
+          timeZone: "Europe/Copenhagen",
         });
 
         const time = event.dtstart.toLocaleTimeString("da-DK", {
           hour: "2-digit",
           minute: "2-digit",
+          timeZone: "Europe/Copenhagen",
         });
 
         let description = event.description || "";
