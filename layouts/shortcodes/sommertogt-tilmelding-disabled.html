@@ -1,0 +1,77 @@
+<div class="tilmelding-container disabled">
+  <div class="tilmelding-header">
+    <h3>⛵ Sommertogt {{ .Get "år" | default "#" }}</h3>
+  </div>
+
+  <div class="tilmelding-content">
+    <p class="tilmelding-description">
+      Har du lyst til at komme med på sommertogt med Betty? Tilmelding til
+      sommertogtet er endnu ikke åbnet. Mere information følger, når vi nærmer
+      os.
+    </p>
+
+    <div class="tilmelding-button">
+      📝 <strong>Tilmelding åbner senere</strong><br />
+      <small>Der er endnu ikke åbnet for tilmelding</small>
+    </div>
+
+    <div class="tilmelding-note">
+      <p>
+        <strong>OBS:</strong> Du skal være medlem af UniSail for at deltage.
+      </p>
+    </div>
+  </div>
+</div>
+
+<style>
+  .tilmelding-container {
+    font-family:
+      system-ui,
+      -apple-system,
+      sans-serif;
+    margin: 1.5rem 0;
+    background: var(--entry);
+    border: 1px solid var(--border);
+    border-radius: 12px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+  }
+
+  .tilmelding-header {
+    background: linear-gradient(135deg, #888f94, #55595c);
+    color: white;
+    padding: 1.5rem;
+    text-align: center;
+  }
+
+  .tilmelding-header h3 {
+    margin: 0;
+    font-size: 1.5rem;
+  }
+
+  .tilmelding-content {
+    padding: 1.5rem;
+  }
+
+  .tilmelding-description {
+    margin-bottom: 1rem;
+    color: var(--secondary);
+  }
+
+  .tilmelding-button {
+    background: linear-gradient(135deg, #888f94, #55595c);
+    color: white;
+    padding: 1rem;
+    border-radius: 8px;
+    text-align: center;
+    font-weight: 600;
+    font-size: 1.1rem;
+    opacity: 0.7;
+  }
+
+  .tilmelding-note {
+    margin-top: 1rem;
+    font-size: 0.9rem;
+    color: var(--secondary);
+  }
+</style>

@@ -1,0 +1,103 @@
+<div class="tilmelding-container">
+  <div class="tilmelding-header">
+    <h3>⛵ Sommertogt {{ .Get "år" | default "#" }}</h3>
+  </div>
+
+  <div class="tilmelding-content">
+    <p class="tilmelding-description">
+      Har du lyst til at komme med på sommertogt med Betty? Tilmelding til
+      sommertogtet foregår via formularen nedenfor.
+    </p>
+
+    <a
+      href="{{ .Get "link" | default "#" }}"
+      target="_blank"
+      rel="noopener noreferrer"
+      class="tilmelding-link"
+    >
+      <div class="tilmelding-button">
+        📝 <strong>Tilmeld dig sommertogt</strong><br />
+        <small>Åbner tilmeldingsformular</small>
+      </div>
+    </a>
+
+    <div class="tilmelding-note">
+      <p>
+        <strong>OBS:</strong> Du skal være medlem af UniSail for at deltage.
+      </p>
+    </div>
+  </div>
+</div>
+
+<style>
+  .tilmelding-container {
+    font-family:
+      system-ui,
+      -apple-system,
+      sans-serif;
+    margin: 1.5rem 0;
+    background: var(--entry);
+    border: 1px solid var(--border);
+    border-radius: 12px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+  }
+
+  .tilmelding-header {
+    background: linear-gradient(135deg, #2196f3, #1976d2);
+    color: white;
+    padding: 1.5rem;
+    text-align: center;
+  }
+
+  .tilmelding-header h3 {
+    margin: 0;
+    font-size: 1.5rem;
+  }
+
+  .tilmelding-content {
+    padding: 1.5rem;
+  }
+
+  .tilmelding-description {
+    margin-bottom: 1rem;
+    color: var(--content);
+  }
+
+  .tilmelding-link {
+    display: block;
+    text-decoration: none !important;
+    margin-top: 1rem;
+    color: inherit;
+  }
+
+  .tilmelding-button {
+    background: linear-gradient(135deg, #2196f3, #1976d2);
+    color: white;
+    padding: 1rem;
+    border-radius: 8px;
+    text-align: center;
+    font-weight: 600;
+    font-size: 1.1rem;
+    box-shadow: 0 2px 4px rgba(33, 150, 243, 0.3);
+    transition:
+      transform 0.2s ease,
+      box-shadow 0.2s ease;
+  }
+
+  .tilmelding-link:hover .tilmelding-button {
+    transform: translateY(-2px);
+    box-shadow: 0 4px 8px rgba(33, 150, 243, 0.4);
+  }
+
+  .tilmelding-note {
+    margin-top: 1rem;
+    font-size: 0.9rem;
+    color: var(--secondary);
+  }
+
+  :root[data-theme="dark"] .tilmelding-header,
+  :root[data-theme="dark"] .tilmelding-button {
+    background: linear-gradient(135deg, #42a5f5, #1e88e5);
+  }
+</style>

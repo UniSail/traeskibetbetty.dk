@@ -4,3 +4,5 @@ public
 .DS_Store
 .vscode
 *.txt
+.env
+.tailscale/

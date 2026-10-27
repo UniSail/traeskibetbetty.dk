@@ -1,12 +1,12 @@
 ---
-date: "2025-02-05"
-draft: true
-title: "Foreningen"
+date: "2026-03-25"
+draft: false
+title: "Bestyrelsen - 2026"
 ShowToc: true
 TocOpen: true
 ---
 
-## Bestyrelsen 2025
+## Bestyrelsen 2026
 
 I UniSail er der 4 bestyrelsesmedlemmer og 2 suppleanter
 
@@ -33,7 +33,7 @@ At bevare Træskibet Betty som et aktivt fællesskab, der skaber oplevelser, del
 
 ### Vision
 
-At skabe et stærkt fællesskab gennem unikke sejladser og maritime oplevelser, hvor Træskibet Betty danner rammen om sammenhold, læring og kærlighed til havet. 
+At skabe et stærkt fællesskab gennem unikke sejladser og maritime oplevelser, hvor Træskibet Betty danner rammen om sammenhold, læring og kærlighed til havet.
 
 ### Værdier
 
@@ -55,8 +55,8 @@ Fremhæve glæden ved at udforske havet sammen.
 
 #### Læring
 
- Fremme praktisk erfaring og udvikling gennem fælles aktiviteter.
+Fremme praktisk erfaring og udvikling gennem fælles aktiviteter.
 
 ### Vedtægter
 
-{{< embed-pdf url="/PDF/2025 Vedtægter for UniSail.pdf" hideLoader="true" >}}
+{{< embed-pdf url="/PDF/2026_Vedtægter_for_UniSail.pdf" hideLoader="true" >}}
