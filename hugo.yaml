@@ -27,6 +27,10 @@ menu:
       name: Arbejdshold
       url: /posts/Arbejdshold/
       weight: 5
+    - identifier: opgaver
+      name: Opgaver
+      url: https://unisail-opgaver.sapsucker-daggertooth.ts.net/
+      weight: 7
     - identifier: nyheder
       name: Nyheder
       url: /posts/nyheder/
