@@ -12,6 +12,8 @@ I løbet af vinteren arbejdes der på træskibet Betty. Der er en enorm hyggelig
 
 Vil du give en hånd med? Alle opgaverne på Betty ligger på [opgavesiden](https://unisail-opgaver.sapsucker-daggertooth.ts.net/). Her kan du se, hvad der er ledigt, og tage en opgave uden at oprette en konto.
 
+{{< qr >}}
+
 - [Aptering]({{< ref "Aptering/_index.md" >}} "Aptering") - Mads Berg
 - [Elektronik]({{< ref "Elektronik/_index.md" >}} "Elektronik") - Jeppe Firring Givskud
 - [Fondansøgninger]({{< ref "Fondansøgninger/_index.md" >}} "Fondansøgninger") - Ikke besat

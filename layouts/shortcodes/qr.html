@@ -1,0 +1,90 @@
+{{- /* Fold-ud QR-kode. Brug: {{< qr url="https://..." titel="..." tekst="..." >}} */ -}}
+{{- $url := .Get "url" | default "https://unisail-opgaver.sapsucker-daggertooth.ts.net/" -}}
+{{- $titel := .Get "titel" | default "Vis QR-kode til opgavesiden" -}}
+{{- $tekst := .Get "tekst" | default "Scan koden med mobilen for at åbne opgavesiden." -}}
+{{- $qr := images.QR $url (dict "level" "medium" "scale" 6 "targetDir" "img/qr") -}}
+
+<details class="qr-box">
+  <summary>📱 {{ $titel }}</summary>
+  <div class="qr-content">
+    <a href="{{ $url }}" class="qr-image">
+      <img
+        src="{{ $qr.RelPermalink }}"
+        width="{{ $qr.Width }}"
+        height="{{ $qr.Height }}"
+        alt="QR-kode til {{ $url }}"
+        loading="lazy"
+      />
+    </a>
+    <p class="qr-text">{{ $tekst }}</p>
+    <a href="{{ $url }}" class="qr-url">{{ $url }}</a>
+  </div>
+</details>
+
+<style>
+  .qr-box {
+    border: 1px solid var(--border);
+    border-radius: 12px;
+    background: var(--entry);
+    margin: 1rem 0;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+
+  .qr-box summary {
+    cursor: pointer;
+    padding: 12px 20px;
+    font-weight: 600;
+    color: var(--primary);
+    list-style: none;
+  }
+
+  .qr-box summary::-webkit-details-marker {
+    display: none;
+  }
+
+  .qr-box summary::after {
+    content: "▸";
+    float: right;
+    transition: transform 0.2s;
+  }
+
+  .qr-box[open] summary::after {
+    transform: rotate(90deg);
+  }
+
+  .qr-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0 20px 20px;
+    text-align: center;
+  }
+
+  /* Hvid baggrund, så koden kan scannes, også i mørkt tema */
+  .qr-image {
+    display: inline-block;
+    background: #fff;
+    padding: 12px;
+    border-radius: 10px;
+    box-shadow: none !important;
+  }
+
+  .qr-image img {
+    display: block;
+    width: 200px;
+    height: auto;
+    margin: 0;
+    image-rendering: pixelated;
+  }
+
+  .qr-text {
+    color: var(--secondary);
+    font-size: 0.9em;
+    margin: 12px 0 4px;
+  }
+
+  .qr-url {
+    font-size: 0.8em;
+    word-break: break-all;
+  }
+</style>
