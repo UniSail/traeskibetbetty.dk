@@ -21,6 +21,7 @@ params:
     Text: "Foreslå ændringer" # edit text
     appendFilePath: true # to append file path to Edit link
   defaultTheme: dark
+  disableSpecial1stPost: true # vis første indlæg på forsiden som de andre
 menu:
   main:
     - identifier: Arbejdshold
