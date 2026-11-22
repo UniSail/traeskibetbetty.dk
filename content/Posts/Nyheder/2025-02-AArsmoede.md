@@ -69,7 +69,7 @@ Det sidste ben var mod Szczecin. Sejladsen gik stort set udmærket. Vi skulle be
 Vi havde et stop undervejs. Vi kom derind efter adskillige opkald og fik at vide, at vi kunne ligge på siden af Ruben, en god ven med mange reservedele, som har hjulpet os mange gange.
 
 Vi kom til Szczecin, som var en interessant by. Vejret var ikke med os.
-Tall Ship Races havde som sædvanligt en masse fester. Uafhængigt af os var der en båd, der blev stjålet. Formodentlig nogle fulderikker. Måske med kontakt til Jens Krogh.
+Tall Ship Races havde som sædvanligt en masse fester. Uafhængigt af os var der en båd, der blev stjålet.
 
 Det var så slutningen på Tall Ship Races.
 
