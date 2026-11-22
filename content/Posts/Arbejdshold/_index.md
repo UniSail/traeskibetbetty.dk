@@ -8,7 +8,7 @@ cover:
 ---
 
 
-I løbet af vinteren arbejdes der på træskibet Betty. Der er en enorm hyggelig tid hvor der hver onsdag samles en masse unge på skibet og løser diverse opgaver. I år (2024) er der blevet oprettet 6 udvalg for at strukturere arbejdet.
+I løbet af vinteren arbejdes der på træskibet Betty. Der er en enorm hyggelig tid hvor der hver onsdag samles en masse unge på skibet og løser diverse opgaver. Arbejdet er delt op i udvalg, som hver har en ansvarlig.
 
 Vil du give en hånd med? Alle opgaverne på Betty ligger på [opgavesiden](https://unisail-opgaver.sapsucker-daggertooth.ts.net/). Her kan du se, hvad der er ledigt, og tage en opgave uden at oprette en konto.
 

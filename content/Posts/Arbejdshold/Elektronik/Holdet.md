@@ -5,7 +5,7 @@ title: Elholdet
 ---
 <!-- weight: 49 -->
 
-Elholdet er PT (oktober 2024):
+Elholdet består af:
 
 - Andreas Funch Petersen
 - Jakob Mortensen

@@ -270,7 +270,7 @@ Derfor blev der stemt om at ændre vedtægterne, hvis det bliver nødvendigt - D
 
 Er der interesse i kredsen for at have mere end en båd?
 
-- <https://www.dba.dk/mobility/item/6217322?ci=8>
+- DBA-annonce (udløbet)
   - Der er 12 meter bord, der skal skiftes (50.000)
 
 Der er arbejdsweekend lørdag, og vi mødes kl. 10 i Hobro og tager hjem efter aftensmad.
