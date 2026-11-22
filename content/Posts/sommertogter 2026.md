@@ -10,7 +10,7 @@ url: /sommertogter/
 weight: 10
 ---
 
-{{< sommertogt-tilmelding link="https://docs.google.com/forms/d/e/1FAIpQLSd3psJgIC7QDSTzVmfpmMZXWQC9dUkhXxcqa1fEfJTIs33INA/viewform">}}
+{{< sommertogt-tilmelding-disabled år=2027 >}}
 
 ## Betty sommertogter 2026
 

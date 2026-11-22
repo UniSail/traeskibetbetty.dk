@@ -1,5 +1,5 @@
 baseURL: https://traeskibetbetty.dk/
-languageCode: da-dk
+locale: da-dk
 defaultContentLanguage: da-dk
 title: Træskibet Betty
 theme:
@@ -18,7 +18,7 @@ params:
   enableInlineShortcodes: true
   editPost:
     URL: "https://github.com/UniSail/traeskibetbetty.dk/tree/main/content"
-    Text: "Suggest Changes" # edit text
+    Text: "Foreslå ændringer" # edit text
     appendFilePath: true # to append file path to Edit link
   defaultTheme: dark
 menu:
